@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ohfa2mw8vhvj"
+path="res://.godot/imported/jeep.obj-3b0ab419a5849fe8e8109f224882691a.mesh"
+
+[deps]
+
+files=["res://.godot/imported/jeep.obj-3b0ab419a5849fe8e8109f224882691a.mesh"]
+
+source_file="res://assets/lowpoly_cars_free/OBJ/jeep.obj"
+dest_files=["res://.godot/imported/jeep.obj-3b0ab419a5849fe8e8109f224882691a.mesh", "res://.godot/imported/jeep.obj-3b0ab419a5849fe8e8109f224882691a.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

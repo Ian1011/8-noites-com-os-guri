@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://dxnlvngr65muc"]
+
+[node name="Main" type="Node3D" unique_id=1205890304]
+
+[node name="House" type="Node3D" parent="." unique_id=1526513652]

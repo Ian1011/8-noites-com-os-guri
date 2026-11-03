@@ -1,0 +1,1686 @@
+[gd_scene format=3 uid="uid://doisgf0r38vxg"]
+
+[ext_resource type="PackedScene" uid="uid://c0ldo6v5mxx4d" path="res://assets/house_psx/geometry/floorWood2.glb" id="1_h2yge"]
+[ext_resource type="PackedScene" uid="uid://bovw4duu7i8uv" path="res://assets/house_psx/geometry/floorHalfWood.glb" id="2_1bvp3"]
+[ext_resource type="PackedScene" uid="uid://cwr2an762wfms" path="res://assets/house_psx/geometry/wallDoorWood.glb" id="2_dg77c"]
+[ext_resource type="PackedScene" uid="uid://dn1v62at4ipqa" path="res://assets/house_psx/geometry/floorStone.glb" id="3_lquwl"]
+[ext_resource type="PackedScene" uid="uid://d2rupyhgwkqlo" path="res://assets/house_psx/geometry/wallWood.glb" id="3_ycdy4"]
+[ext_resource type="PackedScene" uid="uid://bvt7tp0plc867" path="res://assets/house_psx/geometry/wallWindowWood.glb" id="4_w48qg"]
+[ext_resource type="PackedScene" uid="uid://cwtg8me2rqyyg" path="res://assets/house_psx/geometry/WindowWood2.glb" id="5_ryguw"]
+[ext_resource type="PackedScene" uid="uid://bgepa2e5d304d" path="res://assets/house_psx/geometry/floorWood.glb" id="5_vivmo"]
+[ext_resource type="PackedScene" uid="uid://dkueee720lsaa" path="res://assets/house_psx/geometry/wallWindowPlaster.glb" id="6_2cqfq"]
+[ext_resource type="PackedScene" uid="uid://bmym1xmc0r2si" path="res://assets/house_psx/geometry/wallHalfWood.glb" id="6_82xsv"]
+[ext_resource type="PackedScene" uid="uid://bmsvrkwm7aox1" path="res://assets/house_psx/props/sideboard4.glb" id="6_cyx1q"]
+[ext_resource type="PackedScene" uid="uid://bcgffadce1hou" path="res://assets/house_psx/geometry/doorWood2.glb" id="6_lswn8"]
+[ext_resource type="PackedScene" uid="uid://81jnxn7483m7" path="res://assets/house_psx/props/tv.glb" id="7_0dhbp"]
+[ext_resource type="PackedScene" uid="uid://xxesm703gi8e" path="res://assets/house_psx/geometry/floorTiles.glb" id="7_yaehf"]
+[ext_resource type="PackedScene" uid="uid://b02v1ax28e568" path="res://assets/house_psx/geometry/wallPlaster.glb" id="8_074og"]
+[ext_resource type="PackedScene" uid="uid://cdpe71sndidv4" path="res://assets/house_psx/props/vhs.glb" id="8_jx0wj"]
+[ext_resource type="PackedScene" uid="uid://cl235nmrvnil7" path="res://assets/house_psx/geometry/doorWood.glb" id="9_a6jrf"]
+[ext_resource type="PackedScene" uid="uid://bpj1h5whxij1v" path="res://assets/house_psx/geometry/wallHalfPlaster.glb" id="9_cegan"]
+[ext_resource type="PackedScene" uid="uid://c6pjrcaj40yfm" path="res://assets/house_psx/props/couchBig2.glb" id="9_kkkcx"]
+[ext_resource type="PackedScene" uid="uid://by1nlb3k1i7j6" path="res://assets/house_psx/props/teddybear.glb" id="10_34ol3"]
+[ext_resource type="PackedScene" uid="uid://b62l4tgsw7c02" path="res://assets/house_psx/props/couchSmall2.glb" id="11_c2n8d"]
+[ext_resource type="PackedScene" uid="uid://bahvtl4niw6t1" path="res://assets/house_psx/geometry/stairsWood4.glb" id="12_82xsv"]
+[ext_resource type="PackedScene" uid="uid://dysaisbtxktyd" path="res://assets/house_psx/geometry/wallHalfMarble.glb" id="12_getpj"]
+[ext_resource type="PackedScene" uid="uid://dyc4tvxvrecit" path="res://assets/house_psx/props/cup.glb" id="12_wy5fy"]
+[ext_resource type="PackedScene" uid="uid://dh80itnr6onky" path="res://assets/house_psx/props/milkCarton.glb" id="13_gx4rg"]
+[ext_resource type="PackedScene" uid="uid://bniq35q4e7f5b" path="res://assets/house_psx/geometry/wallMarble.glb" id="13_ryguw"]
+[ext_resource type="PackedScene" uid="uid://lgmpslfrjfw0" path="res://assets/house_psx/props/table2.glb" id="14_5dllo"]
+[ext_resource type="PackedScene" uid="uid://bd2eeiana00kt" path="res://assets/house_psx/geometry/wallDoorMarble.glb" id="14_d13ii"]
+[ext_resource type="PackedScene" uid="uid://s14qclregltv" path="res://assets/house_psx/props/flashlight.glb" id="15_phcyf"]
+[ext_resource type="PackedScene" uid="uid://cevasmkhygt5e" path="res://assets/house_psx/geometry/wallBrick.glb" id="16_1u8w0"]
+[ext_resource type="PackedScene" uid="uid://c457rr1a48o8f" path="res://assets/house_psx/props/remote.glb" id="16_birbe"]
+[ext_resource type="PackedScene" uid="uid://c7xnpijcc47tq" path="res://assets/house_psx/geometry/wallTurnBrick.glb" id="17_0odxb"]
+[ext_resource type="PackedScene" uid="uid://c8dnpnclreyjn" path="res://assets/house_psx/props/bookshelf.glb" id="17_f1p13"]
+[ext_resource type="PackedScene" uid="uid://cxrkkr18vv82i" path="res://assets/house_psx/props/bookStack.glb" id="18_4obbf"]
+[ext_resource type="PackedScene" uid="uid://bh7e8blndcwsg" path="res://assets/house_psx/geometry/wallHalfBrick.glb" id="18_lswn8"]
+[ext_resource type="PackedScene" uid="uid://ch2ich2doipro" path="res://assets/lowpoly_cars_free/GLTF/italia.glb" id="18_xuqvo"]
+[ext_resource type="PackedScene" uid="uid://c76iuooeksfky" path="res://assets/house_psx/props/bookStack5.glb" id="19_ovcoh"]
+[ext_resource type="PackedScene" uid="uid://ccjkswg8saa7m" path="res://assets/house_psx/geometry/floorCarpet.glb" id="20_a6jrf"]
+[ext_resource type="PackedScene" uid="uid://csugtsad57b6r" path="res://assets/house_psx/geometry/wallTurnWood.glb" id="20_getpj"]
+[ext_resource type="PackedScene" uid="uid://wbhju6sokka4" path="res://assets/house_psx/props/painting3.glb" id="20_ppx11"]
+[ext_resource type="Script" uid="uid://bcg5l2eia2kq2" path="res://scripts/portacozinha.gd" id="22_jx0wj"]
+[ext_resource type="Script" uid="uid://cftoof6xjbf58" path="res://scripts/portaescada.gd" id="23_kkkcx"]
+[ext_resource type="PackedScene" uid="uid://b42bjrspew8kn" path="res://assets/house_psx/geometry/doorWood3.glb" id="26_qsp4k"]
+[ext_resource type="PackedScene" uid="uid://olpddib5rckf" path="res://assets/house_psx/props/oven.glb" id="29_1yv1y"]
+[ext_resource type="PackedScene" uid="uid://djqnmcfuw8y17" path="res://assets/house_psx/props/pot.glb" id="30_5yh34"]
+[ext_resource type="PackedScene" uid="uid://vca46x4jvgna" path="res://assets/house_psx/props/pan.glb" id="31_pjuso"]
+[ext_resource type="PackedScene" uid="uid://i1x6fw0ijssi" path="res://assets/house_psx/props/sideboard.glb" id="32_23xmf"]
+[ext_resource type="PackedScene" uid="uid://blvqmab37yx37" path="res://assets/house_psx/props/product3.glb" id="33_swlj1"]
+[ext_resource type="PackedScene" uid="uid://oinre6q2pj15" path="res://assets/house_psx/props/product5.glb" id="34_yysqy"]
+[ext_resource type="PackedScene" uid="uid://81lcyvsgx3j3" path="res://assets/house_psx/props/knife.glb" id="35_n5t1e"]
+[ext_resource type="PackedScene" uid="uid://5sucasbsrqpd" path="res://assets/house_psx/props/shelves.glb" id="36_h6isl"]
+[ext_resource type="PackedScene" uid="uid://b04pv8g2p0cyi" path="res://assets/house_psx/props/apple.glb" id="37_53bls"]
+[ext_resource type="PackedScene" uid="uid://c1y862jdekv7p" path="res://assets/house_psx/props/plate2.glb" id="38_lwnsi"]
+[ext_resource type="PackedScene" uid="uid://ceo36gmipkrnu" path="res://assets/house_psx/props/fridge.glb" id="39_41lik"]
+[ext_resource type="PackedScene" uid="uid://b50imkfeevfg8" path="res://assets/house_psx/props/pizza.glb" id="40_jbvwl"]
+[ext_resource type="PackedScene" uid="uid://u6jqudatj000" path="res://assets/house_psx/props/chair.glb" id="41_sn1fb"]
+[ext_resource type="PackedScene" uid="uid://cpb3enqh0ra8k" path="res://assets/house_psx/props/washingMachine.glb" id="47_yvsr8"]
+[ext_resource type="PackedScene" uid="uid://ck77s1x4f23io" path="res://assets/house_psx/props/breakerBox.glb" id="48_vieuh"]
+[ext_resource type="PackedScene" uid="uid://bhqx4xenbaip1" path="res://assets/house_psx/props/plant.glb" id="53_yjja3"]
+[ext_resource type="PackedScene" uid="uid://dhkx68bgck4j1" path="res://assets/house_psx/props/basketball.glb" id="55_l0gw7"]
+[ext_resource type="PackedScene" uid="uid://ddq8tppelbjy1" path="res://assets/house_psx/props/trashBag2.glb" id="56_inymm"]
+[ext_resource type="PackedScene" uid="uid://df3gtjgm4e63i" path="res://assets/house_psx/props/plant2.glb" id="57_jcxqu"]
+[ext_resource type="PackedScene" uid="uid://3552ynbwh51r" path="res://assets/house_psx/props/radiator.glb" id="58_0arob"]
+[ext_resource type="PackedScene" uid="uid://0t663jj32vl8" path="res://assets/house_psx/props/bed2.glb" id="60_dij0e"]
+[ext_resource type="PackedScene" uid="uid://c3ihbglfuo8u5" path="res://assets/house_psx/props/couchSmall.glb" id="61_k1udn"]
+[ext_resource type="PackedScene" uid="uid://dcd705jbpfj41" path="res://assets/house_psx/props/table.glb" id="62_wat4s"]
+[ext_resource type="PackedScene" uid="uid://5xmndbb56llk" path="res://assets/house_psx/props/chessboard.glb" id="63_ywjan"]
+[ext_resource type="PackedScene" uid="uid://cdc03w3vyoxaj" path="res://assets/house_psx/props/cabinetBig.glb" id="64_m74q3"]
+[ext_resource type="PackedScene" uid="uid://1idl3nltpuox" path="res://assets/house_psx/props/burger.glb" id="65_tko6h"]
+[ext_resource type="PackedScene" uid="uid://p2pyigi6rmb7" path="res://assets/house_psx/props/bucket.glb" id="66_am8a1"]
+[ext_resource type="PackedScene" uid="uid://drik4xt16orqk" path="res://assets/house_psx/props/bed.glb" id="67_8dc3g"]
+[ext_resource type="Script" uid="uid://dw2bcr06gehxm" path="res://scripts/tvlight.gd" id="68_8dc3g"]
+[ext_resource type="Script" uid="uid://csl0sgxcqnope" path="res://scripts/player_cam.gd" id="70_htgcl"]
+[ext_resource type="PackedScene" uid="uid://faeclc4by30x" path="res://assets/tablet-based-in-fnaf/source/TABLETA.glb" id="73_f1p13"]
+[ext_resource type="Script" uid="uid://c3tnbihp41uu7" path="res://scripts/control_actions.gd" id="73_kkkcx"]
+[ext_resource type="Script" uid="uid://cr6q12kxwyhxp" path="res://scripts/player_view_controller.gd" id="73_phcyf"]
+[ext_resource type="Script" uid="uid://bnrceijqbckc3" path="res://scripts/energy_controller.gd" id="74_34ol3"]
+[ext_resource type="Script" uid="uid://b0s0peobee4yh" path="res://scripts/night_controller.gd" id="75_c2n8d"]
+[ext_resource type="Script" uid="uid://dtgb75ragltut" path="res://scripts/video_controller.gd" id="76_5dllo"]
+[ext_resource type="Script" uid="uid://g6topuhntooh" path="res://scripts/audio_controller.gd" id="76_gx4rg"]
+[ext_resource type="AudioStream" uid="uid://q0gqam7drjem" path="res://audios/test_bait.mp3" id="77_5dllo"]
+[ext_resource type="AudioStream" uid="uid://vexby3ayglcg" path="res://audios/vhs_video.mp3" id="80_4obbf"]
+[ext_resource type="Script" uid="uid://brjfqe40rar2i" path="res://scripts/game_controller.gd" id="80_birbe"]
+[ext_resource type="AudioStream" uid="uid://5umpuy3a8r6d" path="res://audios/office/distant_cough_office.mp3" id="80_wat4s"]
+[ext_resource type="AudioStream" uid="uid://yld8diwmxqm8" path="res://audios/office/distant_laughter_office.mp3" id="81_ywjan"]
+[ext_resource type="AudioStream" uid="uid://bboxen3dtaouq" path="res://audios/office/loud_thoud_office.mp3" id="82_m74q3"]
+[ext_resource type="AudioStream" uid="uid://ljwmipmirtx1" path="res://audios/office/radio_static_office.mp3" id="83_tko6h"]
+[ext_resource type="AudioStream" uid="uid://sewv8rw33bbf" path="res://audios/video/dialog_video.mp3" id="84_am8a1"]
+[ext_resource type="AudioStream" uid="uid://cqd6f7pfvrxm5" path="res://audios/video/kids_video.mp3" id="85_8dc3g"]
+[ext_resource type="AudioStream" uid="uid://cl0gk74udu4ai" path="res://audios/video/old_cartoon_video.mp3" id="86_htgcl"]
+[ext_resource type="AudioStream" uid="uid://xwv7f24s42xb" path="res://audios/video/scary_laugh_video.mp3" id="87_smeu8"]
+[ext_resource type="AudioStream" uid="uid://yfkud0l8m8li" path="res://audios/video/sitcom_laugh_video.mp3" id="88_f3y11"]
+[ext_resource type="AudioStream" uid="uid://daghpsf1qr3ck" path="res://audios/video/transmission_video.mp3" id="89_cpm2s"]
+[ext_resource type="AudioStream" uid="uid://b5dar32i50p4x" path="res://audios/video/video_game_video.mp3" id="90_u81y6"]
+[ext_resource type="AudioStream" uid="uid://dpcf7aykgj4rd" path="res://audios/aleatorios/floorboard_creak_3.mp3" id="94_d5iia"]
+[ext_resource type="AudioStream" uid="uid://dy6jvfil2nod2" path="res://audios/aleatorios/metal.mp3" id="95_asu84"]
+[ext_resource type="AudioStream" uid="uid://dmpjw8qpdyo0" path="res://audios/aleatorios/wood_hit.mp3" id="96_qwt6e"]
+[ext_resource type="AudioStream" uid="uid://jslf5f512xfc" path="res://audios/ambiente.mp3" id="97_off2o"]
+[ext_resource type="AudioStream" uid="uid://c1sfqye43ai4r" path="res://audios/door_close.mp3" id="100_tttfs"]
+[ext_resource type="AudioStream" uid="uid://r4wmmmc4gk22" path="res://audios/flashlight_turn.mp3" id="101_1iygd"]
+[ext_resource type="AudioStream" uid="uid://c04rse11t5k27" path="res://audios/nose_sound.mp3" id="101_am8a1"]
+[ext_resource type="AudioStream" uid="uid://c0a5lueqbjepr" path="res://audios/aleatorios/behind_you.mp3" id="101_tko6h"]
+[ext_resource type="AudioStream" uid="uid://cvlgev3ueyo7l" path="res://audios/aleatorios/breathing.mp3" id="102_am8a1"]
+[ext_resource type="AudioStream" uid="uid://l5f4idnjyj2r" path="res://audios/shock.mp3" id="102_g5xqc"]
+[ext_resource type="AudioStream" uid="uid://dlx18m1e7kxyt" path="res://audios/aleatorios/distant_cough.mp3" id="103_8dc3g"]
+[ext_resource type="AudioStream" uid="uid://b6t7weifdxycd" path="res://audios/open_monitor.mp3" id="103_s4o1y"]
+[ext_resource type="AudioStream" uid="uid://bk2umfujtcf5r" path="res://audios/switch_camera.mp3" id="104_7mmqq"]
+[ext_resource type="AudioStream" uid="uid://xhjo0x1ak414" path="res://audios/power_down.mp3" id="105_3exxq"]
+[ext_resource type="AudioStream" uid="uid://pyd6r28rf2rg" path="res://audios/aleatorios/heavy_object_fall.mp3" id="105_htgcl"]
+[ext_resource type="AudioStream" uid="uid://d18d1mqatyluc" path="res://audios/victory.mp3" id="106_5aa3q"]
+[ext_resource type="AudioStream" uid="uid://l77rlyg8bpy2" path="res://audios/aleatorios/radio_static.mp3" id="107_smeu8"]
+[ext_resource type="AudioStream" uid="uid://x2aml1o7b5hy" path="res://audios/aleatorios/susurros.mp3" id="108_f3y11"]
+[ext_resource type="Script" uid="uid://cb2b6o1ir80jl" path="res://scripts/monster_controller.gd" id="113_f3y11"]
+[ext_resource type="Texture2D" uid="uid://ccewx6c84ktmb" path="res://test_monster.jpeg" id="113_htgcl"]
+[ext_resource type="Script" uid="uid://bnmdidx5sl2kk" path="res://scripts/monster_ant.gd" id="113_smeu8"]
+[ext_resource type="Script" uid="uid://b4x0qnltxui36" path="res://scripts/monster_model.gd" id="114_cpm2s"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_g4v7s"]
+radius = 0.023283005
+
+[sub_resource type="BoxMesh" id="BoxMesh_g4v7s"]
+size = Vector3(4.5, 4, 0.2)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_c2n8d"]
+load_path = "res://.godot/imported/maprv.png-c7b53b30243a1d18dadd1c9009dbdffe.ctex"
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_g4v7s"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_yf5fn"]
+bg_color = Color(1, 1, 1, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_c2n8d"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_wy5fy"]
+bg_color = Color(1, 1, 1, 1)
+
+[sub_resource type="Environment" id="Environment_yf5fn"]
+
+[node name="Main" type="Node3D" unique_id=1205890304]
+
+[node name="House" type="Node3D" parent="." unique_id=1526513652]
+
+[node name="Terreo" type="Node3D" parent="House" unique_id=310757343]
+
+[node name="SalaReal" type="Node3D" parent="House/Terreo" unique_id=722015490]
+
+[node name="Fixos" type="Node3D" parent="House/Terreo/SalaReal" unique_id=196742823]
+
+[node name="wallWindowWood3" parent="House/Terreo/SalaReal/Fixos" unique_id=1485696601 instance=ExtResource("4_w48qg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 4)
+
+[node name="wallDoorWood4" parent="House/Terreo/SalaReal/Fixos" unique_id=1352976618 instance=ExtResource("2_dg77c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, 4)
+
+[node name="floorWood22" parent="House/Terreo/SalaReal/Fixos" unique_id=1260892416 instance=ExtResource("1_h2yge")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 0)
+
+[node name="floorWood31" parent="House/Terreo/SalaReal/Fixos" unique_id=1256927084 instance=ExtResource("1_h2yge")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 4)
+
+[node name="floorWood23" parent="House/Terreo/SalaReal/Fixos" unique_id=968321143 instance=ExtResource("1_h2yge")]
+
+[node name="floorWood30" parent="House/Terreo/SalaReal/Fixos" unique_id=1367298247 instance=ExtResource("1_h2yge")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 4)
+
+[node name="floorWood24" parent="House/Terreo/SalaReal/Fixos" unique_id=881979750 instance=ExtResource("1_h2yge")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -4)
+
+[node name="floorWood25" parent="House/Terreo/SalaReal/Fixos" unique_id=536173900 instance=ExtResource("1_h2yge")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -4)
+
+[node name="floorWood26" parent="House/Terreo/SalaReal/Fixos" unique_id=1892512771 instance=ExtResource("1_h2yge")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -4)
+
+[node name="floorWood29" parent="House/Terreo/SalaReal/Fixos" unique_id=1138321847 instance=ExtResource("1_h2yge")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -4)
+
+[node name="floorWood27" parent="House/Terreo/SalaReal/Fixos" unique_id=957075337 instance=ExtResource("1_h2yge")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 0)
+
+[node name="floorWood32" parent="House/Terreo/SalaReal/Fixos" unique_id=696112669 instance=ExtResource("1_h2yge")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 4)
+
+[node name="floorWood28" parent="House/Terreo/SalaReal/Fixos" unique_id=1337173963 instance=ExtResource("1_h2yge")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, 0)
+
+[node name="floorWood33" parent="House/Terreo/SalaReal/Fixos" unique_id=123281509 instance=ExtResource("1_h2yge")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, 4)
+
+[node name="wallDoorWood2" parent="House/Terreo/SalaReal/Fixos" unique_id=1820861859 instance=ExtResource("2_dg77c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -8)
+
+[node name="wallDoorWood3" parent="House/Terreo/SalaReal/Fixos" unique_id=1736941420 instance=ExtResource("2_dg77c")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -3.9999998, 0, 4)
+
+[node name="wallWood8" parent="House/Terreo/SalaReal/Fixos" unique_id=443072495 instance=ExtResource("3_ycdy4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -8)
+
+[node name="wallWood14" parent="House/Terreo/SalaReal/Fixos" unique_id=1704665055 instance=ExtResource("3_ycdy4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 4)
+
+[node name="wallWood15" parent="House/Terreo/SalaReal/Fixos" unique_id=1966727714 instance=ExtResource("3_ycdy4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 4)
+
+[node name="wallWood10" parent="House/Terreo/SalaReal/Fixos" unique_id=1010082661 instance=ExtResource("3_ycdy4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -8)
+
+[node name="wallWood9" parent="House/Terreo/SalaReal/Fixos" unique_id=1529555485 instance=ExtResource("3_ycdy4")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -3.9999995, 0, 0)
+
+[node name="wallWood13" parent="House/Terreo/SalaReal/Fixos" unique_id=856422780 instance=ExtResource("3_ycdy4")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -3.9999998, 0, -4)
+
+[node name="wallWood11" parent="House/Terreo/SalaReal/Fixos" unique_id=189373957 instance=ExtResource("3_ycdy4")]
+transform = Transform3D(-4.5896957e-08, 0, 1, 0, 1, 0, -1.05, 0, -4.371139e-08, 12, 0, -4.266516)
+
+[node name="wallWood12" parent="House/Terreo/SalaReal/Fixos" unique_id=1376303799 instance=ExtResource("3_ycdy4")]
+transform = Transform3D(-4.5896957e-08, 0, 1, 0, 1, 0, -1.05, 0, -4.371139e-08, 12, 0, 3.8179684)
+
+[node name="wallWindowWood2" parent="House/Terreo/SalaReal/Fixos" unique_id=701101968 instance=ExtResource("4_w48qg")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 11.970092, 0, -0.25068498)
+
+[node name="WindowWood22" parent="House/Terreo/SalaReal/Fixos" unique_id=526731998 instance=ExtResource("5_ryguw")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 12, 0, -0.2122812)
+
+[node name="WindowWood23" parent="House/Terreo/SalaReal/Fixos" unique_id=1927612562 instance=ExtResource("5_ryguw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 4.005363)
+
+[node name="sideboard42" parent="House/Terreo/SalaReal/Fixos" unique_id=716792938 instance=ExtResource("6_cyx1q")]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 4.7822733, 0, -4.42984)
+
+[node name="tv2" parent="House/Terreo/SalaReal/Fixos/sideboard42" unique_id=352178585 instance=ExtResource("7_0dhbp")]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0.007540226, 0.64303195, 0.42057133)
+
+[node name="vhs2" parent="House/Terreo/SalaReal/Fixos/sideboard42" unique_id=2041844964 instance=ExtResource("8_jx0wj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.07265425, 0.3688804, 0.14898634)
+
+[node name="vhs3" parent="House/Terreo/SalaReal/Fixos/sideboard42" unique_id=1496130700 instance=ExtResource("8_jx0wj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.1317544, 0.3688804, 0.14898634)
+
+[node name="vhs4" parent="House/Terreo/SalaReal/Fixos/sideboard42" unique_id=407505947 instance=ExtResource("8_jx0wj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.01919508, 0.4006863, 0.14898634)
+
+[node name="vhs5" parent="House/Terreo/SalaReal/Fixos/sideboard42" unique_id=1002852020 instance=ExtResource("8_jx0wj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.08209634, 0.43239912, 0.14898634)
+
+[node name="couchBig22" parent="House/Terreo/SalaReal/Fixos" unique_id=1203725001 instance=ExtResource("9_kkkcx")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 8.042217, 2.3841858e-07, 0.12842798)
+
+[node name="couchSmall22" parent="House/Terreo/SalaReal/Fixos" unique_id=2086085170 instance=ExtResource("11_c2n8d")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 4.903371, 0, 1.9915888)
+
+[node name="cup2" parent="House/Terreo/SalaReal/Fixos/couchSmall22" unique_id=1819298523 instance=ExtResource("12_wy5fy")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5606632, 0.8980437, 0.5199145)
+
+[node name="milkCarton10" parent="House/Terreo/SalaReal/Fixos/couchSmall22" unique_id=1626732706 instance=ExtResource("13_gx4rg")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -2.6023498, 0.90840447, 0.7430531)
+
+[node name="table22" parent="House/Terreo/SalaReal/Fixos" unique_id=1889955160 instance=ExtResource("14_5dllo")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.9179277, 0, 0.32122707)
+
+[node name="remote2" parent="House/Terreo/SalaReal/Fixos/table22" unique_id=905719213 instance=ExtResource("16_birbe")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.22445345, 0.85367227, 0.4636879)
+
+[node name="milkCarton2" parent="House/Terreo/SalaReal/Fixos/table22" unique_id=906872591 instance=ExtResource("13_gx4rg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.38045597, 0.8744699, -0.15242553)
+
+[node name="milkCarton3" parent="House/Terreo/SalaReal/Fixos/table22" unique_id=1903118031 instance=ExtResource("13_gx4rg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.08886385, 0.8744699, -0.15242553)
+
+[node name="milkCarton9" parent="House/Terreo/SalaReal/Fixos/table22" unique_id=1297176609 instance=ExtResource("13_gx4rg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.22159147, 0.8744699, -0.15242553)
+
+[node name="milkCarton4" parent="House/Terreo/SalaReal/Fixos/table22" unique_id=1035359408 instance=ExtResource("13_gx4rg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.1878581, 0.8744699, -0.15242553)
+
+[node name="milkCarton5" parent="House/Terreo/SalaReal/Fixos/table22" unique_id=521476329 instance=ExtResource("13_gx4rg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.32428026, 0.8744699, -0.15242553)
+
+[node name="milkCarton6" parent="House/Terreo/SalaReal/Fixos/table22" unique_id=232413497 instance=ExtResource("13_gx4rg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.46872854, 0.8744699, -0.15242553)
+
+[node name="milkCarton7" parent="House/Terreo/SalaReal/Fixos/table22" unique_id=1797782626 instance=ExtResource("13_gx4rg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.6100607, 0.8744699, -0.15242553)
+
+[node name="milkCarton8" parent="House/Terreo/SalaReal/Fixos/table22" unique_id=255526761 instance=ExtResource("13_gx4rg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.53100634, 0.8744699, -0.15242553)
+
+[node name="bookshelf2" parent="House/Terreo/SalaReal/Fixos" unique_id=1809990048 instance=ExtResource("17_f1p13")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 13.428244, 0, -2.002544)
+
+[node name="bookStack2" parent="House/Terreo/SalaReal/Fixos/bookshelf2" unique_id=922983019 instance=ExtResource("18_4obbf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.54041195, 2.121926, 0.0845108)
+
+[node name="bookStack3" parent="House/Terreo/SalaReal/Fixos/bookshelf2" unique_id=600625911 instance=ExtResource("18_4obbf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.20165157, 2.121926, 0.0845108)
+
+[node name="bookStack4" parent="House/Terreo/SalaReal/Fixos/bookshelf2" unique_id=1181112475 instance=ExtResource("18_4obbf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.20868301, 2.121926, 0.0845108)
+
+[node name="bookStack5" parent="House/Terreo/SalaReal/Fixos/bookshelf2" unique_id=1280576834 instance=ExtResource("18_4obbf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5474434, 2.121926, 0.0845108)
+
+[node name="bookStack6" parent="House/Terreo/SalaReal/Fixos/bookshelf2" unique_id=2038101373 instance=ExtResource("18_4obbf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.20868301, 1.7544496, 0.0845108)
+
+[node name="bookStack7" parent="House/Terreo/SalaReal/Fixos/bookshelf2" unique_id=290215957 instance=ExtResource("18_4obbf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5474434, 1.7544496, 0.0845108)
+
+[node name="bookStack8" parent="House/Terreo/SalaReal/Fixos/bookshelf2" unique_id=1955525297 instance=ExtResource("18_4obbf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5400202, 1.7544496, 0.0845108)
+
+[node name="bookStack9" parent="House/Terreo/SalaReal/Fixos/bookshelf2" unique_id=712291739 instance=ExtResource("18_4obbf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.20125985, 1.7544496, 0.0845108)
+
+[node name="bookStack10" parent="House/Terreo/SalaReal/Fixos/bookshelf2" unique_id=2014619236 instance=ExtResource("18_4obbf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5400202, 1.3569934, 0.0845108)
+
+[node name="bookStack11" parent="House/Terreo/SalaReal/Fixos/bookshelf2" unique_id=676119826 instance=ExtResource("18_4obbf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.20125985, 1.3569934, 0.0845108)
+
+[node name="bookStack12" parent="House/Terreo/SalaReal/Fixos/bookshelf2" unique_id=1497647100 instance=ExtResource("18_4obbf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.19113708, 1.3569934, 0.0845108)
+
+[node name="bookStack13" parent="House/Terreo/SalaReal/Fixos/bookshelf2" unique_id=306769148 instance=ExtResource("18_4obbf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.52989745, 1.3569934, 0.0845108)
+
+[node name="bookStack14" parent="House/Terreo/SalaReal/Fixos/bookshelf2" unique_id=1515791987 instance=ExtResource("18_4obbf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.19113708, 0.9586706, 0.0845108)
+
+[node name="bookStack15" parent="House/Terreo/SalaReal/Fixos/bookshelf2" unique_id=1366813873 instance=ExtResource("18_4obbf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.52989745, 0.9586706, 0.0845108)
+
+[node name="bookStack16" parent="House/Terreo/SalaReal/Fixos/bookshelf2" unique_id=1502945901 instance=ExtResource("18_4obbf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.57148767, 0.9586706, 0.0845108)
+
+[node name="bookStack17" parent="House/Terreo/SalaReal/Fixos/bookshelf2" unique_id=264824163 instance=ExtResource("18_4obbf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.23272729, 0.9586706, 0.0845108)
+
+[node name="bookStack52" parent="House/Terreo/SalaReal/Fixos/bookshelf2" unique_id=1603416099 instance=ExtResource("19_ovcoh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.35937095, 0.7290448, 0.22299576)
+
+[node name="bookStack53" parent="House/Terreo/SalaReal/Fixos/bookshelf2" unique_id=431609660 instance=ExtResource("19_ovcoh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.27243495, 0.7290448, 0.22299576)
+
+[node name="bookStack54" parent="House/Terreo/SalaReal/Fixos/bookshelf2" unique_id=1528808851 instance=ExtResource("19_ovcoh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.27243495, 0.41824138, 0.22299576)
+
+[node name="bookStack55" parent="House/Terreo/SalaReal/Fixos/bookshelf2" unique_id=1365559290 instance=ExtResource("19_ovcoh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.39686346, 0.41824138, 0.22299576)
+
+[node name="painting32" parent="House/Terreo/SalaReal/Fixos" unique_id=518537019 instance=ExtResource("20_ppx11")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.126413, 2.014861, 0.26671648)
+
+[node name="Interaveis" type="Node3D" parent="House/Terreo/SalaReal" unique_id=1350349095]
+
+[node name="PortaCozinha" parent="House/Terreo/SalaReal/Interaveis" unique_id=1786355059 instance=ExtResource("6_lswn8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.005, -2.65, -8.087)
+script = ExtResource("22_jx0wj")
+open_height = -2.65
+
+[node name="PortaEscada" parent="House/Terreo/SalaReal/Interaveis" unique_id=462341176 instance=ExtResource("6_lswn8")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -4.171, -2.65, 3.977)
+script = ExtResource("23_kkkcx")
+open_height = -2.65
+
+[node name="PortaQuintal" parent="House/Terreo/SalaReal/Interaveis" unique_id=183785996 instance=ExtResource("6_lswn8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.972029, 0, 3.9519296)
+
+[node name="TeddyTheBear" parent="House/Terreo/SalaReal/Interaveis" unique_id=213676802 instance=ExtResource("10_34ol3")]
+transform = Transform3D(-6.556708e-08, 0, -1.5, 0, 1.5, 0, 1.5, 0, -6.556708e-08, 7.993599, 0.6558501, 0.6300626)
+
+[node name="Area3D" type="Area3D" parent="House/Terreo/SalaReal/Interaveis/TeddyTheBear" unique_id=459622104 groups=["bear_nose"]]
+transform = Transform3D(1, 0, -3.5527137e-15, 0, 1, 0, 3.5527137e-15, 0, 1, 0.0020716637, 0.22756146, 0.0750252)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="House/Terreo/SalaReal/Interaveis/TeddyTheBear/Area3D" unique_id=1215193986]
+shape = SubResource("SphereShape3D_g4v7s")
+
+[node name="HallReal" type="Node3D" parent="House/Terreo" unique_id=29491693]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -7.960823)
+
+[node name="Fixos" type="Node3D" parent="House/Terreo/HallReal" unique_id=545392107]
+
+[node name="floorWood2" parent="House/Terreo/HallReal/Fixos" unique_id=1249319463 instance=ExtResource("5_vivmo")]
+
+[node name="floorWood3" parent="House/Terreo/HallReal/Fixos" unique_id=1952830633 instance=ExtResource("5_vivmo")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -4)
+
+[node name="wallDoorWood2" parent="House/Terreo/HallReal/Fixos" unique_id=158965062 instance=ExtResource("2_dg77c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -8)
+
+[node name="wallDoorWood3" parent="House/Terreo/HallReal/Fixos" unique_id=826053038 instance=ExtResource("2_dg77c")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -4.0182266, 0, 0)
+
+[node name="wallWindowWood2" parent="House/Terreo/HallReal/Fixos" unique_id=703043762 instance=ExtResource("4_w48qg")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0.06054239, 0, -4.5)
+
+[node name="wallWindowWood3" parent="House/Terreo/HallReal/Fixos" unique_id=1998639692 instance=ExtResource("4_w48qg")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -3.9394577, 0, -4.5)
+
+[node name="wallHalfWood2" parent="House/Terreo/HallReal/Fixos" unique_id=339281374 instance=ExtResource("6_82xsv")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -3.9089866, 0, -3.4002657)
+
+[node name="wallHalfWood3" parent="House/Terreo/HallReal/Fixos" unique_id=1966474691 instance=ExtResource("6_82xsv")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0.09101343, 0, -3.4002657)
+
+[node name="wallWood2" parent="House/Terreo/HallReal/Fixos" unique_id=1260899565 instance=ExtResource("3_ycdy4")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0.09464621, 0, 0)
+
+[node name="WindowWood22" parent="House/Terreo/HallReal/Fixos" unique_id=746503310 instance=ExtResource("5_ryguw")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0.0613914, 0, -4.5)
+
+[node name="WindowWood23" parent="House/Terreo/HallReal/Fixos" unique_id=555484875 instance=ExtResource("5_ryguw")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -0.15581179, 0, -4.5)
+
+[node name="doorWood2" parent="House/Terreo/HallReal/Fixos" unique_id=2114933422 instance=ExtResource("9_a6jrf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -8.217966)
+
+[node name="doorWood22" parent="House/Terreo/HallReal/Fixos" unique_id=1241424026 instance=ExtResource("6_lswn8")]
+transform = Transform3D(-0.99363303, 0, 0.11266485, 0, 1, 0, -0.11266485, 0, -0.99363303, -3.2734108, 0, 2.735279)
+
+[node name="CozinhaReal" type="Node3D" parent="House/Terreo" unique_id=722096098]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.024251, 0, -8.108233)
+
+[node name="Fixos" type="Node3D" parent="House/Terreo/CozinhaReal" unique_id=1929275186]
+
+[node name="wallWindowPlaster2" parent="House/Terreo/CozinhaReal/Fixos" unique_id=1300729402 instance=ExtResource("6_2cqfq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -8.000001)
+
+[node name="wallWindowPlaster3" parent="House/Terreo/CozinhaReal/Fixos" unique_id=1692067055 instance=ExtResource("6_2cqfq")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 4, 0, -2)
+
+[node name="floorTiles2" parent="House/Terreo/CozinhaReal/Fixos" unique_id=1483233742 instance=ExtResource("7_yaehf")]
+
+[node name="floorTiles3" parent="House/Terreo/CozinhaReal/Fixos" unique_id=306413096 instance=ExtResource("7_yaehf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 0)
+
+[node name="floorTiles4" parent="House/Terreo/CozinhaReal/Fixos" unique_id=823030050 instance=ExtResource("7_yaehf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -4)
+
+[node name="floorTiles5" parent="House/Terreo/CozinhaReal/Fixos" unique_id=1235793197 instance=ExtResource("7_yaehf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -4)
+
+[node name="wallPlaster2" parent="House/Terreo/CozinhaReal/Fixos" unique_id=108260580 instance=ExtResource("8_074og")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -4, 0, -0.01823616)
+
+[node name="wallPlaster3" parent="House/Terreo/CozinhaReal/Fixos" unique_id=1312262987 instance=ExtResource("8_074og")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -4, 0, -3.9220123)
+
+[node name="wallPlaster4" parent="House/Terreo/CozinhaReal/Fixos" unique_id=1725271846 instance=ExtResource("8_074og")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -4, 0, -4.4220123)
+
+[node name="wallHalfPlaster2" parent="House/Terreo/CozinhaReal/Fixos" unique_id=566558661 instance=ExtResource("9_cegan")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 4, 0, 0)
+
+[node name="wallHalfPlaster3" parent="House/Terreo/CozinhaReal/Fixos" unique_id=1395991645 instance=ExtResource("9_cegan")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 4, 0, -6)
+
+[node name="wallHalfPlaster4" parent="House/Terreo/CozinhaReal/Fixos" unique_id=1630599742 instance=ExtResource("9_cegan")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -8.000001)
+
+[node name="wallHalfPlaster5" parent="House/Terreo/CozinhaReal/Fixos" unique_id=217501437 instance=ExtResource("9_cegan")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -8.000001)
+
+[node name="WindowWood22" parent="House/Terreo/CozinhaReal/Fixos" unique_id=734243700 instance=ExtResource("5_ryguw")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 2.0000002, 0, -4.21093)
+
+[node name="WindowWood23" parent="House/Terreo/CozinhaReal/Fixos" unique_id=684917867 instance=ExtResource("5_ryguw")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 4.0515184, 0, -2.0062504)
+
+[node name="oven2" parent="House/Terreo/CozinhaReal/Fixos" unique_id=1358020866 instance=ExtResource("29_1yv1y")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 5.3923616, 0, -1.9663279)
+
+[node name="pot2" parent="House/Terreo/CozinhaReal/Fixos/oven2" unique_id=1144370604 instance=ExtResource("30_5yh34")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 0.17831707, 1.1000028, 0.32600594)
+
+[node name="pan2" parent="House/Terreo/CozinhaReal/Fixos/oven2" unique_id=962368481 instance=ExtResource("31_pjuso")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.15681934, 1.0534987, -0.36424065)
+
+[node name="sideboard3" parent="House/Terreo/CozinhaReal/Fixos" unique_id=1580943213 instance=ExtResource("32_23xmf")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 5.4853153, 0.071553946, -3.5153074)
+
+[node name="product32" parent="House/Terreo/CozinhaReal/Fixos/sideboard3" unique_id=884187027 instance=ExtResource("33_swlj1")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0.5028362, 0.7616974, 0.007241249)
+
+[node name="product52" parent="House/Terreo/CozinhaReal/Fixos/sideboard3" unique_id=274992706 instance=ExtResource("34_yysqy")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0.23888111, 0.81639695, 0.027953148)
+
+[node name="knife2" parent="House/Terreo/CozinhaReal/Fixos/sideboard3" unique_id=162032592 instance=ExtResource("35_n5t1e")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -0.26628113, 0.8827578, 0.14526176)
+
+[node name="shelves3" parent="House/Terreo/CozinhaReal/Fixos" unique_id=2024467286 instance=ExtResource("36_h6isl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.7365265, 0, -5.7350817)
+
+[node name="apple3" parent="House/Terreo/CozinhaReal/Fixos/shelves3" unique_id=1071188012 instance=ExtResource("37_53bls")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.86183643, 1.8476844, -0.11460304)
+
+[node name="apple4" parent="House/Terreo/CozinhaReal/Fixos/shelves3" unique_id=964044191 instance=ExtResource("37_53bls")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.6509867, 1.8476844, -0.11460304)
+
+[node name="apple5" parent="House/Terreo/CozinhaReal/Fixos/shelves3" unique_id=739620321 instance=ExtResource("37_53bls")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.42862415, 1.8476844, -0.11460304)
+
+[node name="apple6" parent="House/Terreo/CozinhaReal/Fixos/shelves3" unique_id=1059660799 instance=ExtResource("37_53bls")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.23491955, 1.8476844, -0.11460304)
+
+[node name="apple7" parent="House/Terreo/CozinhaReal/Fixos/shelves3" unique_id=1641690843 instance=ExtResource("37_53bls")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0064706802, 1.8476844, -0.11460304)
+
+[node name="apple8" parent="House/Terreo/CozinhaReal/Fixos/shelves3" unique_id=2049582680 instance=ExtResource("37_53bls")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.22749615, 1.8476844, -0.11460304)
+
+[node name="apple9" parent="House/Terreo/CozinhaReal/Fixos/shelves3" unique_id=1128919944 instance=ExtResource("37_53bls")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.4630766, 1.8476844, -0.11460304)
+
+[node name="apple10" parent="House/Terreo/CozinhaReal/Fixos/shelves3" unique_id=1950158291 instance=ExtResource("37_53bls")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.70188475, 1.8476844, -0.11460304)
+
+[node name="apple11" parent="House/Terreo/CozinhaReal/Fixos/shelves3" unique_id=1870436906 instance=ExtResource("37_53bls")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.9437647, 1.8476844, -0.11460304)
+
+[node name="apple12" parent="House/Terreo/CozinhaReal/Fixos/shelves3" unique_id=1315262185 instance=ExtResource("37_53bls")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.9437647, 1.8476844, -0.11460304)
+
+[node name="apple13" parent="House/Terreo/CozinhaReal/Fixos/shelves3" unique_id=124671995 instance=ExtResource("37_53bls")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.9437647, 1.8476844, 0.14345074)
+
+[node name="apple14" parent="House/Terreo/CozinhaReal/Fixos/shelves3" unique_id=459386888 instance=ExtResource("37_53bls")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.691463, 1.8476844, 0.14345074)
+
+[node name="apple15" parent="House/Terreo/CozinhaReal/Fixos/shelves3" unique_id=220239708 instance=ExtResource("37_53bls")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.45894718, 1.8476844, 0.14345074)
+
+[node name="apple16" parent="House/Terreo/CozinhaReal/Fixos/shelves3" unique_id=2119320132 instance=ExtResource("37_53bls")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.20730591, 1.8476844, 0.14345074)
+
+[node name="apple17" parent="House/Terreo/CozinhaReal/Fixos/shelves3" unique_id=983694410 instance=ExtResource("37_53bls")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.039456367, 1.8476844, 0.14345074)
+
+[node name="apple18" parent="House/Terreo/CozinhaReal/Fixos/shelves3" unique_id=91794066 instance=ExtResource("37_53bls")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.20581532, 1.8476844, 0.14345074)
+
+[node name="apple19" parent="House/Terreo/CozinhaReal/Fixos/shelves3" unique_id=2126176876 instance=ExtResource("37_53bls")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.3907547, 1.8476844, 0.14345074)
+
+[node name="apple20" parent="House/Terreo/CozinhaReal/Fixos/shelves3" unique_id=1123676920 instance=ExtResource("37_53bls")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.56344795, 1.8476844, 0.14345074)
+
+[node name="apple21" parent="House/Terreo/CozinhaReal/Fixos/shelves3" unique_id=1780931050 instance=ExtResource("37_53bls")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.73654556, 1.8476844, 0.14345074)
+
+[node name="apple22" parent="House/Terreo/CozinhaReal/Fixos/shelves3" unique_id=786871890 instance=ExtResource("37_53bls")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.73654556, 1.8476844, 0.14345074)
+
+[node name="plate22" parent="House/Terreo/CozinhaReal/Fixos/shelves3" unique_id=1352755700 instance=ExtResource("38_lwnsi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.872159, 1.4341912, -0.11291504)
+
+[node name="plate23" parent="House/Terreo/CozinhaReal/Fixos/shelves3" unique_id=569334803 instance=ExtResource("38_lwnsi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.48453236, 1.4341912, -0.11291504)
+
+[node name="plate24" parent="House/Terreo/CozinhaReal/Fixos/shelves3" unique_id=1531873202 instance=ExtResource("38_lwnsi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.09545088, 1.4341912, -0.11291504)
+
+[node name="plate25" parent="House/Terreo/CozinhaReal/Fixos/shelves3" unique_id=1508381978 instance=ExtResource("38_lwnsi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.2860632, 1.4341912, -0.11291504)
+
+[node name="plate26" parent="House/Terreo/CozinhaReal/Fixos/shelves3" unique_id=1284164768 instance=ExtResource("38_lwnsi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.71551037, 1.4341912, -0.11291504)
+
+[node name="plate27" parent="House/Terreo/CozinhaReal/Fixos/shelves3" unique_id=982050761 instance=ExtResource("38_lwnsi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.71551037, 1.4341912, 0.20175838)
+
+[node name="plate28" parent="House/Terreo/CozinhaReal/Fixos/shelves3" unique_id=1255080424 instance=ExtResource("38_lwnsi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.31378555, 1.4341912, 0.20175838)
+
+[node name="plate29" parent="House/Terreo/CozinhaReal/Fixos/shelves3" unique_id=584117203 instance=ExtResource("38_lwnsi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.10940981, 1.4341912, 0.20175838)
+
+[node name="plate30" parent="House/Terreo/CozinhaReal/Fixos/shelves3" unique_id=789363999 instance=ExtResource("38_lwnsi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.51319265, 1.4341912, 0.20175838)
+
+[node name="plate31" parent="House/Terreo/CozinhaReal/Fixos/shelves3" unique_id=1717265651 instance=ExtResource("38_lwnsi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.8286438, 1.4341912, 0.20175838)
+
+[node name="fridge2" parent="House/Terreo/CozinhaReal/Fixos" unique_id=1188467359 instance=ExtResource("39_41lik")]
+transform = Transform3D(-4.371138e-08, 0, -1, 0, 1, 0, 1, 0, -4.371138e-08, 5.3899326, 0, -5.275079)
+
+[node name="table22" parent="House/Terreo/CozinhaReal/Fixos" unique_id=367594223 instance=ExtResource("14_5dllo")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.9911871, 0, -2.031166)
+
+[node name="table23" parent="House/Terreo/CozinhaReal/Fixos" unique_id=1307085879 instance=ExtResource("14_5dllo")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.0354853, 0, -2.031166)
+
+[node name="pizza2" parent="House/Terreo/CozinhaReal/Fixos/table23" unique_id=1530567855 instance=ExtResource("40_jbvwl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.07249069, 0.8335576, -0.06539154)
+
+[node name="pizza3" parent="House/Terreo/CozinhaReal/Fixos/table23" unique_id=2062533466 instance=ExtResource("40_jbvwl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.7681046, 0.8335576, -0.06539154)
+
+[node name="chair2" parent="House/Terreo/CozinhaReal/Fixos" unique_id=1193440229 instance=ExtResource("41_sn1fb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.0664606, 0, -2.5444794)
+
+[node name="chair3" parent="House/Terreo/CozinhaReal/Fixos" unique_id=439078417 instance=ExtResource("41_sn1fb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.0395842, 0, -2.5444794)
+
+[node name="chair4" parent="House/Terreo/CozinhaReal/Fixos" unique_id=433436658 instance=ExtResource("41_sn1fb")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 1.0395842, 0, -1.5624008)
+
+[node name="chair5" parent="House/Terreo/CozinhaReal/Fixos" unique_id=709763042 instance=ExtResource("41_sn1fb")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -0.9574318, 0, -1.5624008)
+
+[node name="GaragemReal" type="Node3D" parent="House/Terreo" unique_id=624244273]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.12847, 0, -4)
+
+[node name="Fixos" type="Node3D" parent="House/Terreo/GaragemReal" unique_id=27167362]
+
+[node name="floorStone2" parent="House/Terreo/GaragemReal/Fixos" unique_id=1757281135 instance=ExtResource("3_lquwl")]
+
+[node name="floorStone4" parent="House/Terreo/GaragemReal/Fixos" unique_id=820173337 instance=ExtResource("3_lquwl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.9999995, 0, -4)
+
+[node name="floorStone5" parent="House/Terreo/GaragemReal/Fixos" unique_id=1926303649 instance=ExtResource("3_lquwl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.9999995, 0, 0)
+
+[node name="floorStone3" parent="House/Terreo/GaragemReal/Fixos" unique_id=519093160 instance=ExtResource("3_lquwl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -4)
+
+[node name="wallHalfMarble2" parent="House/Terreo/GaragemReal/Fixos" unique_id=704174958 instance=ExtResource("12_getpj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.0624747, 0, -7.8932457)
+
+[node name="wallHalfMarble3" parent="House/Terreo/GaragemReal/Fixos" unique_id=1563558759 instance=ExtResource("12_getpj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.7827001, 0, -7.8932457)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="House/Terreo/GaragemReal/Fixos" unique_id=320661862]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 2, -6.0071354)
+mesh = SubResource("BoxMesh_g4v7s")
+
+[node name="wallMarble3" parent="House/Terreo/GaragemReal/Fixos" unique_id=519294399 instance=ExtResource("13_ryguw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.9822764, 0, 0)
+
+[node name="wallMarble4" parent="House/Terreo/GaragemReal/Fixos" unique_id=1752851996 instance=ExtResource("13_ryguw")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -7.9687915, 0, 2.3841858e-07)
+
+[node name="wallMarble5" parent="House/Terreo/GaragemReal/Fixos" unique_id=1273444441 instance=ExtResource("13_ryguw")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -7.9687915, 0, -4)
+
+[node name="wallDoorMarble2" parent="House/Terreo/GaragemReal/Fixos" unique_id=909256622 instance=ExtResource("14_d13ii")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.020927906, 0, 0)
+
+[node name="italia2" parent="House/Terreo/GaragemReal/Fixos" unique_id=1165928414 instance=ExtResource("18_xuqvo")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.137922, 0, -2.1306136)
+
+[node name="washingMachine2" parent="House/Terreo/GaragemReal/Fixos" unique_id=1028906824 instance=ExtResource("47_yvsr8")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -5.4532228, 0, 1.4036131)
+
+[node name="breakerBox2" parent="House/Terreo/GaragemReal/Fixos" unique_id=1217506840 instance=ExtResource("48_vieuh")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -4.998476, 2.0882683, -5.9849324)
+
+[node name="VarandaReal" type="Node3D" parent="House/Terreo" unique_id=109532356]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.922167, 0, 7.96589)
+
+[node name="Fixos" type="Node3D" parent="House/Terreo/VarandaReal" unique_id=1247937815]
+
+[node name="floorHalfWood2" parent="House/Terreo/VarandaReal/Fixos" unique_id=1892704936 instance=ExtResource("2_1bvp3")]
+
+[node name="floorHalfWood4" parent="House/Terreo/VarandaReal/Fixos" unique_id=1582386448 instance=ExtResource("2_1bvp3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 0)
+
+[node name="floorHalfWood5" parent="House/Terreo/VarandaReal/Fixos" unique_id=1833243735 instance=ExtResource("2_1bvp3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 0, 0)
+
+[node name="floorHalfWood6" parent="House/Terreo/VarandaReal/Fixos" unique_id=66582838 instance=ExtResource("2_1bvp3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12, 0, 0)
+
+[node name="floorHalfWood3" parent="House/Terreo/VarandaReal/Fixos" unique_id=1351641852 instance=ExtResource("2_1bvp3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 0)
+
+[node name="QuintalReal" type="Node3D" parent="House/Terreo" unique_id=466414611]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.8803515, 0, 10.0280905)
+
+[node name="Fixos" type="Node3D" parent="House/Terreo/QuintalReal" unique_id=1710879817]
+
+[node name="wallBrick2" parent="House/Terreo/QuintalReal/Fixos" unique_id=1659339604 instance=ExtResource("16_1u8w0")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -8, 0, 0)
+
+[node name="wallBrick6" parent="House/Terreo/QuintalReal/Fixos" unique_id=2008126662 instance=ExtResource("16_1u8w0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 0, 8.000001)
+
+[node name="wallBrick7" parent="House/Terreo/QuintalReal/Fixos" unique_id=2100579187 instance=ExtResource("16_1u8w0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 8.000001)
+
+[node name="wallBrick8" parent="House/Terreo/QuintalReal/Fixos" unique_id=1270242230 instance=ExtResource("16_1u8w0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 8.000001)
+
+[node name="wallBrick9" parent="House/Terreo/QuintalReal/Fixos" unique_id=2085526916 instance=ExtResource("16_1u8w0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 8.000001)
+
+[node name="wallBrick10" parent="House/Terreo/QuintalReal/Fixos" unique_id=1106171529 instance=ExtResource("16_1u8w0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 8.000001)
+
+[node name="wallBrick3" parent="House/Terreo/QuintalReal/Fixos" unique_id=167823733 instance=ExtResource("16_1u8w0")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -8, 0, -2)
+
+[node name="wallBrick4" parent="House/Terreo/QuintalReal/Fixos" unique_id=253246532 instance=ExtResource("16_1u8w0")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -8, 0, 3.500001)
+
+[node name="wallBrick5" parent="House/Terreo/QuintalReal/Fixos" unique_id=1900437775 instance=ExtResource("16_1u8w0")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -8, 0, 7.500001)
+
+[node name="wallBrick11" parent="House/Terreo/QuintalReal/Fixos" unique_id=322348111 instance=ExtResource("16_1u8w0")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 8, 0, 7.500001)
+
+[node name="wallBrick12" parent="House/Terreo/QuintalReal/Fixos" unique_id=1474674859 instance=ExtResource("16_1u8w0")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 8, 0, 3.500001)
+
+[node name="wallBrick13" parent="House/Terreo/QuintalReal/Fixos" unique_id=755730940 instance=ExtResource("16_1u8w0")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 8, 0, -0.49999905)
+
+[node name="floorStone2" parent="House/Terreo/QuintalReal/Fixos" unique_id=1847070424 instance=ExtResource("3_lquwl")]
+
+[node name="floorStone10" parent="House/Terreo/QuintalReal/Fixos" unique_id=752103255 instance=ExtResource("3_lquwl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 0, 0)
+
+[node name="floorStone11" parent="House/Terreo/QuintalReal/Fixos" unique_id=493511429 instance=ExtResource("3_lquwl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 0, 4)
+
+[node name="floorStone12" parent="House/Terreo/QuintalReal/Fixos" unique_id=513595173 instance=ExtResource("3_lquwl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 0, 8.000001)
+
+[node name="floorStone13" parent="House/Terreo/QuintalReal/Fixos" unique_id=1051939821 instance=ExtResource("3_lquwl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 8.000001)
+
+[node name="floorStone14" parent="House/Terreo/QuintalReal/Fixos" unique_id=1828827727 instance=ExtResource("3_lquwl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 8.000001)
+
+[node name="floorStone15" parent="House/Terreo/QuintalReal/Fixos" unique_id=824923507 instance=ExtResource("3_lquwl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 8.000001)
+
+[node name="floorStone16" parent="House/Terreo/QuintalReal/Fixos" unique_id=503431293 instance=ExtResource("3_lquwl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 8.000001)
+
+[node name="floorStone4" parent="House/Terreo/QuintalReal/Fixos" unique_id=1805340880 instance=ExtResource("3_lquwl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 0)
+
+[node name="floorStone5" parent="House/Terreo/QuintalReal/Fixos" unique_id=1655424895 instance=ExtResource("3_lquwl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 4)
+
+[node name="floorStone6" parent="House/Terreo/QuintalReal/Fixos" unique_id=2112618658 instance=ExtResource("3_lquwl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 4)
+
+[node name="floorStone7" parent="House/Terreo/QuintalReal/Fixos" unique_id=183652588 instance=ExtResource("3_lquwl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 4)
+
+[node name="floorStone8" parent="House/Terreo/QuintalReal/Fixos" unique_id=2056602294 instance=ExtResource("3_lquwl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 4)
+
+[node name="floorStone9" parent="House/Terreo/QuintalReal/Fixos" unique_id=690987728 instance=ExtResource("3_lquwl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 0)
+
+[node name="floorStone3" parent="House/Terreo/QuintalReal/Fixos" unique_id=1694431528 instance=ExtResource("3_lquwl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 0)
+
+[node name="wallTurnBrick2" parent="House/Terreo/QuintalReal/Fixos" unique_id=1391094665 instance=ExtResource("17_0odxb")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -9.750795, 0, 11.907311)
+
+[node name="wallTurnBrick3" parent="House/Terreo/QuintalReal/Fixos" unique_id=1207489291 instance=ExtResource("17_0odxb")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 11.903322, 0, 9.967397)
+
+[node name="wallHalfBrick2" parent="House/Terreo/QuintalReal/Fixos" unique_id=1283876366 instance=ExtResource("18_lswn8")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 11.808504, 0, -1.9476023)
+
+[node name="plant2" parent="House/Terreo/QuintalReal/Fixos" unique_id=747615770 instance=ExtResource("53_yjja3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.44002, 0, 9.706849)
+
+[node name="plant3" parent="House/Terreo/QuintalReal/Fixos" unique_id=1556380414 instance=ExtResource("53_yjja3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.452435, 0, 9.706849)
+
+[node name="EscadaReal" type="Node3D" parent="House/Terreo" unique_id=28664056]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.9783797, 3.5293398, 5.701847)
+
+[node name="Fixos" type="Node3D" parent="House/Terreo/EscadaReal" unique_id=1158858296]
+
+[node name="stairsWood42" parent="House/Terreo/EscadaReal/Fixos" unique_id=1085555723 instance=ExtResource("12_82xsv")]
+
+[node name="AcessoTopReal" type="Node3D" parent="House/Terreo" unique_id=716541174]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 0)
+
+[node name="Fixos" type="Node3D" parent="House/Terreo/AcessoTopReal" unique_id=1397666901]
+
+[node name="floorWood22" parent="House/Terreo/AcessoTopReal/Fixos" unique_id=265641187 instance=ExtResource("1_h2yge")]
+
+[node name="floorWood23" parent="House/Terreo/AcessoTopReal/Fixos" unique_id=965218197 instance=ExtResource("1_h2yge")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 4)
+
+[node name="wallWood2" parent="House/Terreo/AcessoTopReal/Fixos" unique_id=199026572 instance=ExtResource("3_ycdy4")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -4, 0, 1.7484555e-07)
+
+[node name="wallWood3" parent="House/Terreo/AcessoTopReal/Fixos" unique_id=144209038 instance=ExtResource("3_ycdy4")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -4, 0, 4)
+
+[node name="wallWood4" parent="House/Terreo/AcessoTopReal/Fixos" unique_id=51529961 instance=ExtResource("3_ycdy4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.3841858e-07, 0, 4)
+
+[node name="Top" type="Node3D" parent="House" unique_id=1870896441]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 21.359, 0, 0)
+
+[node name="CorredorReal" type="Node3D" parent="House/Top" unique_id=1341751918]
+
+[node name="Fixos" type="Node3D" parent="House/Top/CorredorReal" unique_id=111727915]
+
+[node name="floorWood2" parent="House/Top/CorredorReal/Fixos" unique_id=2045648421 instance=ExtResource("5_vivmo")]
+
+[node name="floorWood3" parent="House/Top/CorredorReal/Fixos" unique_id=1622536388 instance=ExtResource("5_vivmo")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 0)
+
+[node name="floorWood4" parent="House/Top/CorredorReal/Fixos" unique_id=575051601 instance=ExtResource("5_vivmo")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 0)
+
+[node name="floorWood5" parent="House/Top/CorredorReal/Fixos" unique_id=1404523216 instance=ExtResource("5_vivmo")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.000002, 0, 0)
+
+[node name="wallWood2" parent="House/Top/CorredorReal/Fixos" unique_id=304799185 instance=ExtResource("3_ycdy4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0007686615, 0, 0)
+
+[node name="wallWood3" parent="House/Top/CorredorReal/Fixos" unique_id=725142742 instance=ExtResource("3_ycdy4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.000002, 0, 0)
+
+[node name="wallWood5" parent="House/Top/CorredorReal/Fixos" unique_id=1498659230 instance=ExtResource("3_ycdy4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.000002, 0, -4)
+
+[node name="wallWood12" parent="House/Top/CorredorReal/Fixos" unique_id=1599820388 instance=ExtResource("3_ycdy4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16.000002, 0, -4)
+
+[node name="wallWood6" parent="House/Top/CorredorReal/Fixos" unique_id=1152766 instance=ExtResource("3_ycdy4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -4)
+
+[node name="wallWood8" parent="House/Top/CorredorReal/Fixos" unique_id=1616920211 instance=ExtResource("3_ycdy4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.2216434, 0, -16)
+
+[node name="wallWood9" parent="House/Top/CorredorReal/Fixos" unique_id=1722532297 instance=ExtResource("3_ycdy4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.24271393, 0, -16)
+
+[node name="wallWood10" parent="House/Top/CorredorReal/Fixos" unique_id=2038354340 instance=ExtResource("3_ycdy4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.000002, 0, -16)
+
+[node name="wallWood11" parent="House/Top/CorredorReal/Fixos" unique_id=1545150980 instance=ExtResource("3_ycdy4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16.000002, 0, -16)
+
+[node name="wallWood13" parent="House/Top/CorredorReal/Fixos" unique_id=427050713 instance=ExtResource("3_ycdy4")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 20.000002, 0, -11.700698)
+
+[node name="wallWood15" parent="House/Top/CorredorReal/Fixos" unique_id=784523127 instance=ExtResource("3_ycdy4")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 0, 0, -11.700699)
+
+[node name="wallWood16" parent="House/Top/CorredorReal/Fixos" unique_id=1037592111 instance=ExtResource("3_ycdy4")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 0, 0, -4.200699)
+
+[node name="wallWood14" parent="House/Top/CorredorReal/Fixos" unique_id=601479276 instance=ExtResource("3_ycdy4")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 20.000002, 0, -4.047764)
+
+[node name="wallWood7" parent="House/Top/CorredorReal/Fixos" unique_id=484280541 instance=ExtResource("3_ycdy4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -4)
+
+[node name="wallWood17" parent="House/Top/CorredorReal/Fixos" unique_id=1329273259 instance=ExtResource("3_ycdy4")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -3.5, 0, 1.5298986e-07)
+
+[node name="wallWood4" parent="House/Top/CorredorReal/Fixos" unique_id=245363856 instance=ExtResource("3_ycdy4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 0)
+
+[node name="wallDoorWood2" parent="House/Top/CorredorReal/Fixos" unique_id=965599654 instance=ExtResource("2_dg77c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 0)
+
+[node name="wallDoorWood3" parent="House/Top/CorredorReal/Fixos" unique_id=1069012326 instance=ExtResource("2_dg77c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -4)
+
+[node name="basketball2" parent="House/Top/CorredorReal/Fixos" unique_id=1359804470 instance=ExtResource("55_l0gw7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.93536, 0.41334534, -1.683718)
+
+[node name="trashBag22" parent="House/Top/CorredorReal/Fixos" unique_id=2134244430 instance=ExtResource("56_inymm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13.26507, 0, 1.3045139)
+
+[node name="plant23" parent="House/Top/CorredorReal/Fixos" unique_id=1654075478 instance=ExtResource("57_jcxqu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.24584, 0, -1.5673373)
+
+[node name="plant24" parent="House/Top/CorredorReal/Fixos" unique_id=284225821 instance=ExtResource("57_jcxqu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.15658, 0, 1.4251037)
+
+[node name="radiator2" parent="House/Top/CorredorReal/Fixos" unique_id=655313963 instance=ExtResource("58_0arob")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13.594915, 0, -1.5029259)
+
+[node name="QuartoAREAL" type="Node3D" parent="House/Top" unique_id=347299792]
+
+[node name="Fixos" type="Node3D" parent="House/Top/QuartoAREAL" unique_id=172803709]
+
+[node name="WindowWood22" parent="House/Top/QuartoAREAL/Fixos" unique_id=433088248 instance=ExtResource("5_ryguw")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 8.212196, 0, -12.176124)
+
+[node name="WindowWood23" parent="House/Top/QuartoAREAL/Fixos" unique_id=1595663497 instance=ExtResource("5_ryguw")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 16.214457, 0, -7.9993935)
+
+[node name="WindowWood24" parent="House/Top/QuartoAREAL/Fixos" unique_id=1950076396 instance=ExtResource("5_ryguw")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -0.0070552826, 0, -7.9993925)
+
+[node name="floorWood22" parent="House/Top/QuartoAREAL/Fixos" unique_id=1123338793 instance=ExtResource("1_h2yge")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -4)
+
+[node name="floorWood23" parent="House/Top/QuartoAREAL/Fixos" unique_id=171106508 instance=ExtResource("1_h2yge")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -4)
+
+[node name="floorWood24" parent="House/Top/QuartoAREAL/Fixos" unique_id=1787607235 instance=ExtResource("1_h2yge")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -4)
+
+[node name="floorWood25" parent="House/Top/QuartoAREAL/Fixos" unique_id=962440447 instance=ExtResource("1_h2yge")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.000002, 0, -4)
+
+[node name="floorWood26" parent="House/Top/QuartoAREAL/Fixos" unique_id=463740844 instance=ExtResource("1_h2yge")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16.000002, 0, -4)
+
+[node name="floorWood27" parent="House/Top/QuartoAREAL/Fixos" unique_id=54968852 instance=ExtResource("1_h2yge")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16.000002, 0, -8)
+
+[node name="floorWood28" parent="House/Top/QuartoAREAL/Fixos" unique_id=990082246 instance=ExtResource("1_h2yge")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.000002, 0, -8)
+
+[node name="floorWood29" parent="House/Top/QuartoAREAL/Fixos" unique_id=1981224873 instance=ExtResource("1_h2yge")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -8)
+
+[node name="floorWood30" parent="House/Top/QuartoAREAL/Fixos" unique_id=1541650173 instance=ExtResource("1_h2yge")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -8)
+
+[node name="floorWood31" parent="House/Top/QuartoAREAL/Fixos" unique_id=1647633983 instance=ExtResource("1_h2yge")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -8)
+
+[node name="floorWood32" parent="House/Top/QuartoAREAL/Fixos" unique_id=1257492615 instance=ExtResource("1_h2yge")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12)
+
+[node name="floorWood33" parent="House/Top/QuartoAREAL/Fixos" unique_id=1094666387 instance=ExtResource("1_h2yge")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -12)
+
+[node name="floorWood34" parent="House/Top/QuartoAREAL/Fixos" unique_id=1010934821 instance=ExtResource("1_h2yge")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -12)
+
+[node name="floorWood35" parent="House/Top/QuartoAREAL/Fixos" unique_id=1864868742 instance=ExtResource("1_h2yge")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.000002, 0, -12)
+
+[node name="floorWood36" parent="House/Top/QuartoAREAL/Fixos" unique_id=1608085362 instance=ExtResource("1_h2yge")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16.000002, 0, -12)
+
+[node name="wallWindowWood2" parent="House/Top/QuartoAREAL/Fixos" unique_id=1843845760 instance=ExtResource("4_w48qg")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -3.8105793, 0, -8)
+
+[node name="wallWindowWood4" parent="House/Top/QuartoAREAL/Fixos" unique_id=1807902864 instance=ExtResource("4_w48qg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.189421, 0, -16)
+
+[node name="wallWindowWood3" parent="House/Top/QuartoAREAL/Fixos" unique_id=753099562 instance=ExtResource("4_w48qg")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 16.159441, 0, -8.000001)
+
+[node name="wallTurnWood2" parent="House/Top/QuartoAREAL/Fixos" unique_id=1169589344 instance=ExtResource("20_getpj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.05324, 0, -16.251713)
+
+[node name="wallTurnWood3" parent="House/Top/QuartoAREAL/Fixos" unique_id=854339420 instance=ExtResource("20_getpj")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 20.004839, 0, -2.268896)
+
+[node name="wallTurnWood4" parent="House/Top/QuartoAREAL/Fixos" unique_id=1942762226 instance=ExtResource("20_getpj")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -1.8050976, 0, -0.21003175)
+
+[node name="wallTurnWood5" parent="House/Top/QuartoAREAL/Fixos" unique_id=413897593 instance=ExtResource("20_getpj")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -3.851324, 0, -14.0423765)
+
+[node name="doorWood22" parent="House/Top/QuartoAREAL/Fixos" unique_id=480920546 instance=ExtResource("6_lswn8")]
+transform = Transform3D(0.51041096, 0, 0.85993063, 0, 1, 0, -0.85993063, 0, 0.51041096, 1.5162964, 0, -3.8197274)
+
+[node name="bed22" parent="House/Top/QuartoAREAL/Fixos" unique_id=1604176363 instance=ExtResource("60_dij0e")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -0.9535141, 0, -12.527506)
+
+[node name="bed24" parent="House/Top/QuartoAREAL/Fixos" unique_id=44231035 instance=ExtResource("60_dij0e")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 4.046486, 0, -12.527506)
+
+[node name="bed27" parent="House/Top/QuartoAREAL/Fixos" unique_id=615184267 instance=ExtResource("60_dij0e")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 12.046488, 0, -12.527506)
+
+[node name="bed29" parent="House/Top/QuartoAREAL/Fixos" unique_id=1043720071 instance=ExtResource("60_dij0e")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 17.046488, 0, -12.527506)
+
+[node name="couchSmall2" parent="House/Top/QuartoAREAL/Fixos" unique_id=1437622223 instance=ExtResource("61_k1udn")]
+transform = Transform3D(-0.03649251, 0, 0.9993339, 0, 1, 0, -0.9993339, 0, -0.03649251, 6.7303543, -2.3841858e-07, -6.923387)
+
+[node name="couchSmall3" parent="House/Top/QuartoAREAL/Fixos" unique_id=913563006 instance=ExtResource("61_k1udn")]
+transform = Transform3D(0.036492422, 0, -0.999334, 0, 1, 0, 0.999334, 0, 0.036492422, 10.105829, -2.3841858e-07, -7.046649)
+
+[node name="table2" parent="House/Top/QuartoAREAL/Fixos" unique_id=831257561 instance=ExtResource("62_wat4s")]
+transform = Transform3D(0.999334, 0, 0.036492467, 0, 1, 0, -0.036492467, 0, 0.999334, 8.393866, -2.3841858e-07, -7.272214)
+
+[node name="chessboard2" parent="House/Top/QuartoAREAL/Fixos/table2" unique_id=59804264 instance=ExtResource("63_ywjan")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.06098175, 0.81053233, 0.07783508)
+
+[node name="cabinetBig2" parent="House/Top/QuartoAREAL/Fixos" unique_id=104633442 instance=ExtResource("64_m74q3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.0824814, 1.1920929e-07, -13.803435)
+
+[node name="cabinetBig3" parent="House/Top/QuartoAREAL/Fixos" unique_id=1063323607 instance=ExtResource("64_m74q3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.181206, -1.1920929e-07, -13.6731205)
+
+[node name="QuartoBREAL" type="Node3D" parent="House/Top" unique_id=2063835612]
+
+[node name="Fixos" type="Node3D" parent="House/Top/QuartoBREAL" unique_id=941649419]
+
+[node name="floorWood22" parent="House/Top/QuartoBREAL/Fixos" unique_id=499837539 instance=ExtResource("1_h2yge")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 4)
+
+[node name="floorWood23" parent="House/Top/QuartoBREAL/Fixos" unique_id=1600655190 instance=ExtResource("1_h2yge")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 4)
+
+[node name="floorWood24" parent="House/Top/QuartoBREAL/Fixos" unique_id=338016670 instance=ExtResource("1_h2yge")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 4)
+
+[node name="floorWood25" parent="House/Top/QuartoBREAL/Fixos" unique_id=1108753876 instance=ExtResource("1_h2yge")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.000002, 0, 4)
+
+[node name="floorWood26" parent="House/Top/QuartoBREAL/Fixos" unique_id=1090126372 instance=ExtResource("1_h2yge")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.000002, 0, 8)
+
+[node name="floorWood27" parent="House/Top/QuartoBREAL/Fixos" unique_id=260329188 instance=ExtResource("1_h2yge")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 8)
+
+[node name="floorWood28" parent="House/Top/QuartoBREAL/Fixos" unique_id=2147287058 instance=ExtResource("1_h2yge")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 8)
+
+[node name="floorWood29" parent="House/Top/QuartoBREAL/Fixos" unique_id=730246460 instance=ExtResource("1_h2yge")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 8)
+
+[node name="floorWood30" parent="House/Top/QuartoBREAL/Fixos" unique_id=1434932390 instance=ExtResource("1_h2yge")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 12)
+
+[node name="floorWood31" parent="House/Top/QuartoBREAL/Fixos" unique_id=1714529534 instance=ExtResource("1_h2yge")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 12)
+
+[node name="floorWood32" parent="House/Top/QuartoBREAL/Fixos" unique_id=1087394811 instance=ExtResource("1_h2yge")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 12)
+
+[node name="floorWood33" parent="House/Top/QuartoBREAL/Fixos" unique_id=426745349 instance=ExtResource("1_h2yge")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.000002, 0, 12)
+
+[node name="wallWood2" parent="House/Top/QuartoBREAL/Fixos" unique_id=1994439923 instance=ExtResource("3_ycdy4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 12)
+
+[node name="wallWood3" parent="House/Top/QuartoBREAL/Fixos" unique_id=2032047142 instance=ExtResource("3_ycdy4")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -3.909504, 0, 12)
+
+[node name="wallWood6" parent="House/Top/QuartoBREAL/Fixos" unique_id=21215630 instance=ExtResource("3_ycdy4")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -3.8859768, 0, 4.0328064)
+
+[node name="wallWood7" parent="House/Top/QuartoBREAL/Fixos" unique_id=1851188085 instance=ExtResource("3_ycdy4")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 11.760809, 0, 3.9999993)
+
+[node name="wallWood8" parent="House/Top/QuartoBREAL/Fixos" unique_id=2059747426 instance=ExtResource("3_ycdy4")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 11.760809, 0, 7.999999)
+
+[node name="wallWood9" parent="House/Top/QuartoBREAL/Fixos" unique_id=825373480 instance=ExtResource("3_ycdy4")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 11.760809, 0, 11.999999)
+
+[node name="wallWood4" parent="House/Top/QuartoBREAL/Fixos" unique_id=1572681437 instance=ExtResource("3_ycdy4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 12)
+
+[node name="wallWood5" parent="House/Top/QuartoBREAL/Fixos" unique_id=370469511 instance=ExtResource("3_ycdy4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.000002, 0, 12)
+
+[node name="wallTurnWood2" parent="House/Top/QuartoBREAL/Fixos" unique_id=1315315333 instance=ExtResource("20_getpj")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2.1624832, 0, 16.076714)
+
+[node name="wallTurnWood3" parent="House/Top/QuartoBREAL/Fixos" unique_id=2091275199 instance=ExtResource("20_getpj")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -3.932434, 0, 1.9796555)
+
+[node name="wallTurnWood4" parent="House/Top/QuartoBREAL/Fixos" unique_id=1735441416 instance=ExtResource("20_getpj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13.590624, 0, 0.061320424)
+
+[node name="wallTurnWood5" parent="House/Top/QuartoBREAL/Fixos" unique_id=2029305241 instance=ExtResource("20_getpj")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 15.917902, 0, 13.697656)
+
+[node name="wallWindowWood2" parent="House/Top/QuartoBREAL/Fixos" unique_id=310395418 instance=ExtResource("4_w48qg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 12)
+
+[node name="wallWindowWood3" parent="House/Top/QuartoBREAL/Fixos" unique_id=431237430 instance=ExtResource("4_w48qg")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -3.8801231, 0, 8)
+
+[node name="WindowWood22" parent="House/Top/QuartoBREAL/Fixos" unique_id=136662206 instance=ExtResource("5_ryguw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.9946232, 0, 12.026132)
+
+[node name="WindowWood23" parent="House/Top/QuartoBREAL/Fixos" unique_id=1458892191 instance=ExtResource("5_ryguw")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -0.089813285, 0, 7.983802)
+
+[node name="doorWood22" parent="House/Top/QuartoBREAL/Fixos" unique_id=515550090 instance=ExtResource("6_lswn8")]
+transform = Transform3D(0.12744288, 0, -0.9918459, 0, 1, 0, 0.9918459, 0, 0.12744288, 5.1627846, 0, 2.5088742)
+
+[node name="tv2" parent="House/Top/QuartoBREAL/Fixos" unique_id=1156377310 instance=ExtResource("7_0dhbp")]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 5.7507896, 0, 7.612402)
+
+[node name="burger2" parent="House/Top/QuartoBREAL/Fixos/tv2" unique_id=417493545 instance=ExtResource("65_tko6h")]
+transform = Transform3D(3, 0, 0, 0, 3, 0, 0, 0, 3, 1.1363325, 1.1920929e-07, 0.64322233)
+
+[node name="bucket2" parent="House/Top/QuartoBREAL/Fixos/tv2" unique_id=371977960 instance=ExtResource("66_am8a1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.7925854, 0, 0.54968786)
+
+[node name="tvlight" type="SpotLight3D" parent="House/Top/QuartoBREAL/Fixos/tv2" unique_id=573202015]
+transform = Transform3D(-0.5, 0, -4.371139e-08, 0, 0.5, 0, 4.371139e-08, 0, -0.5, -0.024834633, 0.31033784, 0.05402136)
+shadow_enabled = true
+spot_range = 12.0
+spot_attenuation = 0.74
+spot_angle = 52.58902
+script = ExtResource("68_8dc3g")
+
+[node name="trashBag22" parent="House/Top/QuartoBREAL/Fixos" unique_id=113954182 instance=ExtResource("56_inymm")]
+transform = Transform3D(1.5, 0, 0, 0, 1.5, 0, 0, 0, 1.5, 5.7998695, 0, 12.521594)
+
+[node name="trashBag23" parent="House/Top/QuartoBREAL/Fixos" unique_id=1683967704 instance=ExtResource("56_inymm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.897507, 0, 12.433089)
+
+[node name="trashBag24" parent="House/Top/QuartoBREAL/Fixos" unique_id=1027493695 instance=ExtResource("56_inymm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.64113, 0, 12.521592)
+
+[node name="trashBag25" parent="House/Top/QuartoBREAL/Fixos" unique_id=63787280 instance=ExtResource("56_inymm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.215933, 0, 12.344584)
+
+[node name="trashBag26" parent="House/Top/QuartoBREAL/Fixos" unique_id=460566366 instance=ExtResource("56_inymm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.3217525, 0, 12.610097)
+
+[node name="trashBag27" parent="House/Top/QuartoBREAL/Fixos" unique_id=1531136461 instance=ExtResource("56_inymm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.13656, 0, 12.433089)
+
+[node name="trashBag28" parent="House/Top/QuartoBREAL/Fixos" unique_id=1910878229 instance=ExtResource("56_inymm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.614672, 0, 12.344584)
+
+[node name="trashBag29" parent="House/Top/QuartoBREAL/Fixos" unique_id=1386141544 instance=ExtResource("56_inymm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.1146717, 0, 12.844584)
+
+[node name="trashBag30" parent="House/Top/QuartoBREAL/Fixos" unique_id=583033024 instance=ExtResource("56_inymm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.6986065, 0, 12.844584)
+
+[node name="trashBag31" parent="House/Top/QuartoBREAL/Fixos" unique_id=597838896 instance=ExtResource("56_inymm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.6611614, 0, 12.744572)
+
+[node name="trashBag32" parent="House/Top/QuartoBREAL/Fixos" unique_id=317676989 instance=ExtResource("56_inymm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5605717, 0, 12.567564)
+
+[node name="trashBag33" parent="House/Top/QuartoBREAL/Fixos" unique_id=1898445338 instance=ExtResource("56_inymm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.14745522, 0, 11.859532)
+
+[node name="trashBag34" parent="House/Top/QuartoBREAL/Fixos" unique_id=358246752 instance=ExtResource("56_inymm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.9175358, 0, 11.594021)
+
+[node name="trashBag35" parent="House/Top/QuartoBREAL/Fixos" unique_id=1489869602 instance=ExtResource("56_inymm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.5106068, 0, 11.682525)
+
+[node name="pizza2" parent="House/Top/QuartoBREAL/Fixos" unique_id=12245751 instance=ExtResource("40_jbvwl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.8402977, 0.17782545, 7.349556)
+
+[node name="bed2" parent="House/Top/QuartoBREAL/Fixos" unique_id=986443071 instance=ExtResource("67_8dc3g")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.1804161, 0, 7.940586)
+
+[node name="EscritorioReal" type="Node3D" parent="House/Top" unique_id=436048439]
+
+[node name="Fixos" type="Node3D" parent="House/Top/EscritorioReal" unique_id=244168064]
+
+[node name="floorCarpet2" parent="House/Top/EscritorioReal/Fixos" unique_id=185339132 instance=ExtResource("20_a6jrf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16.000002, 0, 0)
+
+[node name="floorCarpet3" parent="House/Top/EscritorioReal/Fixos" unique_id=43631068 instance=ExtResource("20_a6jrf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16.000002, 0, 4)
+
+[node name="floorCarpet4" parent="House/Top/EscritorioReal/Fixos" unique_id=1891701291 instance=ExtResource("20_a6jrf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16.000002, 0, 8)
+
+[node name="floorCarpet5" parent="House/Top/EscritorioReal/Fixos" unique_id=557710146 instance=ExtResource("20_a6jrf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16.000002, 0, 12)
+
+[node name="wallWood2" parent="House/Top/EscritorioReal/Fixos" unique_id=1297143238 instance=ExtResource("3_ycdy4")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 19.742517, 0, 1.7484555e-07)
+
+[node name="wallWood3" parent="House/Top/EscritorioReal/Fixos" unique_id=320956790 instance=ExtResource("3_ycdy4")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 19.742517, 0, 4)
+
+[node name="wallWood4" parent="House/Top/EscritorioReal/Fixos" unique_id=636586947 instance=ExtResource("3_ycdy4")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 19.742517, 0, 8)
+
+[node name="wallWood5" parent="House/Top/EscritorioReal/Fixos" unique_id=1166245359 instance=ExtResource("3_ycdy4")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 19.742517, 0, 12)
+
+[node name="wallWood6" parent="House/Top/EscritorioReal/Fixos" unique_id=279924199 instance=ExtResource("3_ycdy4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.742517, 0, 12)
+
+[node name="wallDoorWood2" parent="House/Top/EscritorioReal/Fixos" unique_id=1551288621 instance=ExtResource("2_dg77c")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 11.964998, 0, 0)
+
+[node name="doorWood32" parent="House/Top/EscritorioReal/Fixos" unique_id=916280436 instance=ExtResource("26_qsp4k")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 11.861656, 0, 0.01080518)
+
+[node name="PlayerCam" type="Node3D" parent="." unique_id=883259660 node_paths=PackedStringArray("main_cam", "security_cameras", "camera_UI", "no_signal", "camera_action", "video_progress", "controle_acoes", "video_controller", "tablet_animation", "audio_controller", "energy_controller")]
+script = ExtResource("70_htgcl")
+main_cam = NodePath("MainCam")
+security_cameras = [NodePath("CozinhaCam"), NodePath("GaragemCam"), NodePath("QuintalCam"), NodePath("CorredorCam"), NodePath("QuartoACam"), NodePath("QuartoBCam"), NodePath("EscritorioCam")]
+camera_UI = NodePath("../UI/CameraUI")
+no_signal = NodePath("../UI/CameraUI/NoSignal")
+camera_action = NodePath("../UI/CameraUI/CameraAction")
+video_progress = NodePath("../UI/CameraUI/VideoProgress")
+controle_acoes = NodePath("../ControlActions")
+video_controller = NodePath("../VideoController")
+tablet_animation = NodePath("MainCam/TABLETA/AnimationPlayer")
+audio_controller = NodePath("../AudioController")
+energy_controller = NodePath("../EnergyController")
+
+[node name="MainCam" type="Camera3D" parent="PlayerCam" unique_id=1702948819]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.929, 1.26, 1.964)
+
+[node name="Flashlight" type="SpotLight3D" parent="PlayerCam/MainCam" unique_id=127210951]
+transform = Transform3D(0.99575734, 0, -0.092018194, 0, 1, 0, 0.092018194, 0, 0.99575734, 0.42726994, -0.27680385, -0.54716694)
+visible = false
+light_energy = 3.798
+light_indirect_energy = 16.0
+spot_range = 16.257
+spot_attenuation = 0.39
+spot_angle = 21.15
+
+[node name="FlashlightVisual" parent="PlayerCam/MainCam" unique_id=675109295 instance=ExtResource("15_phcyf")]
+transform = Transform3D(0.8, 0, 0, 0, 0.8, 0, 0, 0, 0.8, 0.42211056, -0.29810536, -0.40292346)
+
+[node name="TABLETA" parent="PlayerCam/MainCam" unique_id=1369414921 instance=ExtResource("73_f1p13")]
+transform = Transform3D(0.45, 0, 0, 0, 0.7, 0, 0, 0, 0.5, 0.01918888, -0.12597299, -0.39931846)
+
+[node name="Cube" parent="PlayerCam/MainCam/TABLETA" index="0" unique_id=201967093]
+transform = Transform3D(0.96588045, 5.329242e-09, -3.3381393e-09, 3.7950777e-08, -0.25679687, 0.07589433, -9.0089e-09, -0.5104101, -0.03818386, -0.03816999, -0.79991907, 0)
+
+[node name="CozinhaCam" type="Camera3D" parent="PlayerCam" unique_id=753228022]
+transform = Transform3D(0.70612574, -0.20529146, 0.6776738, -0.009469397, 0.9542263, 0.29893607, -0.7080231, -0.21750358, 0.6718598, 13.502933, 3.1628263, -6.744416)
+
+[node name="LightCam" type="SpotLight3D" parent="PlayerCam/CozinhaCam" unique_id=22086526]
+visible = false
+spot_range = 21.17201
+spot_attenuation = 0.62
+
+[node name="GaragemCam" type="Camera3D" parent="PlayerCam" unique_id=1278887546]
+transform = Transform3D(0.7859383, -0.36495343, 0.4991092, 0.031170806, 0.829582, 0.55751425, -0.6175187, -0.42261416, 0.66337615, -2.494358, 3.7387571, -2.5922093)
+
+[node name="LightCam" type="SpotLight3D" parent="PlayerCam/GaragemCam" unique_id=201899215]
+transform = Transform3D(1, 0, 0, 0, 0.99999994, 0, 0, 0, 1, 0, 0, 0)
+visible = false
+spot_range = 21.17201
+spot_attenuation = 0.62
+
+[node name="QuintalCam" type="Camera3D" parent="PlayerCam" unique_id=2097048292]
+transform = Transform3D(0.69358957, -0.09061718, 0.71464825, 0.013846824, 0.9935503, 0.1125431, -0.72023726, -0.068163104, 0.6903708, 13.140722, 3.437356, 19.515919)
+
+[node name="CorredorCam" type="Camera3D" parent="PlayerCam" unique_id=1069531861]
+transform = Transform3D(0.060268972, 0.41442907, -0.90808386, -0.006474102, 0.90988076, 0.41481942, 0.99816114, -0.019121705, 0.05752062, 20.146626, 3.532607, 0.08938223)
+
+[node name="LightCam" type="SpotLight3D" parent="PlayerCam/CorredorCam" unique_id=944368103]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.9999999, 0, 0, 0)
+visible = false
+spot_range = 21.17201
+spot_attenuation = 0.62
+
+[node name="QuartoACam" type="Camera3D" parent="PlayerCam" unique_id=586071699]
+transform = Transform3D(1, 0, 0, 0, 0.9430473, 0.33265868, 0, -0.33265868, 0.9430473, 29.729248, 3.3455691, -2.6021223)
+
+[node name="LightCam" type="SpotLight3D" parent="PlayerCam/QuartoACam" unique_id=664255597]
+visible = false
+spot_range = 21.17201
+spot_attenuation = 0.62
+
+[node name="QuartoBCam" type="Camera3D" parent="PlayerCam" unique_id=1208902232]
+transform = Transform3D(-0.89250344, -0.14214598, 0.42805636, -0.001505661, 0.9499752, 0.31232187, -0.45103824, 0.2781038, -0.8480701, 30.636797, 3.2999866, 2.2134864)
+
+[node name="EscritorioCam" type="Camera3D" parent="PlayerCam" unique_id=1470134130]
+transform = Transform3D(-0.999341, 0, 0.03629873, 0.007175514, 0.9802667, 0.19754921, -0.035582434, 0.19767947, -0.9796207, 37.145294, 3.6220515, -1.3010612)
+
+[node name="PlayerViewController" type="Node3D" parent="." unique_id=1172475745 node_paths=PackedStringArray("player_cam", "left_view", "center_view", "right_view", "cameras_controller", "controle_acoes")]
+script = ExtResource("73_phcyf")
+player_cam = NodePath("../PlayerCam/MainCam")
+left_view = NodePath("LeftView")
+center_view = NodePath("CenterView")
+right_view = NodePath("RightView")
+cameras_controller = NodePath("../PlayerCam")
+controle_acoes = NodePath("../ControlActions")
+
+[node name="CenterView" type="Marker3D" parent="PlayerViewController" unique_id=1488483614]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.9294133, 1.2599597, 1.9637961)
+
+[node name="RightView" type="Marker3D" parent="PlayerViewController" unique_id=2106958366]
+transform = Transform3D(-0.20449607, 0, -0.9788674, 0, 1, 0, 0.9788674, 0, -0.20449607, 4.915, 1.31, 2.033)
+
+[node name="LeftView" type="Marker3D" parent="PlayerViewController" unique_id=2089241054]
+transform = Transform3D(0.16332592, 0, 0.98657215, 0, 1, 0, -0.98657215, 0, 0.16332592, 4.915, 1.31, 2.033)
+
+[node name="ControlActions" type="Node3D" parent="." unique_id=1850168485 node_paths=PackedStringArray("audio_controller", "energy_controller", "game_controller", "cameras_controller", "video_controller", "stair_door", "kitchen_door", "flash_effect", "flashlight", "main_cam", "flashlight_visual")]
+script = ExtResource("73_kkkcx")
+audio_controller = NodePath("../AudioController")
+energy_controller = NodePath("../EnergyController")
+game_controller = NodePath("../GameController")
+cameras_controller = NodePath("../PlayerCam")
+video_controller = NodePath("../VideoController")
+stair_door = NodePath("../House/Terreo/SalaReal/Interaveis/PortaEscada")
+kitchen_door = NodePath("../House/Terreo/SalaReal/Interaveis/PortaCozinha")
+flash_effect = NodePath("../UI/CameraUI/FlashEffect")
+flashlight = NodePath("../PlayerCam/MainCam/Flashlight")
+main_cam = NodePath("../PlayerCam/MainCam")
+flashlight_visual = NodePath("../PlayerCam/MainCam/FlashlightVisual")
+
+[node name="EnergyController" type="Node3D" parent="." unique_id=1441933013 node_paths=PackedStringArray("cameras_controller", "stair_door", "kitchen_door", "energy_label", "energy_bar", "controle_acoes", "audio_controller")]
+script = ExtResource("74_34ol3")
+cameras_controller = NodePath("../PlayerCam")
+stair_door = NodePath("../House/Terreo/SalaReal/Interaveis/PortaEscada")
+kitchen_door = NodePath("../House/Terreo/SalaReal/Interaveis/PortaCozinha")
+energy_label = NodePath("../UI/GameHUD/EnergyLabel")
+energy_bar = NodePath("../UI/GameHUD/EnergyBar")
+controle_acoes = NodePath("../ControlActions")
+audio_controller = NodePath("../AudioController")
+
+[node name="NightController" type="Node3D" parent="." unique_id=1328190974 node_paths=PackedStringArray("hour_label")]
+script = ExtResource("75_c2n8d")
+hour_label = NodePath("../UI/GameHUD/HourLabel")
+
+[node name="VideoController" type="Node3D" parent="." unique_id=708098651 node_paths=PackedStringArray("video_progress", "audio_controller", "tv_light")]
+script = ExtResource("76_5dllo")
+video_progress = NodePath("../UI/CameraUI/VideoProgress")
+audio_controller = NodePath("../AudioController")
+tv_light = NodePath("../House/Top/QuartoBREAL/Fixos/tv2/tvlight")
+
+[node name="AudioController" type="Node3D" parent="." unique_id=1931513577 node_paths=PackedStringArray("random_players")]
+script = ExtResource("76_gx4rg")
+office_meme_sounds = Array[AudioStream]([ExtResource("80_wat4s"), ExtResource("81_ywjan"), ExtResource("82_m74q3"), ExtResource("83_tko6h")])
+video_sounds = Array[AudioStream]([ExtResource("84_am8a1"), ExtResource("85_8dc3g"), ExtResource("86_htgcl"), ExtResource("87_smeu8"), ExtResource("88_f3y11"), ExtResource("89_cpm2s"), ExtResource("90_u81y6")])
+ambiente = ExtResource("97_off2o")
+vhs_sound = ExtResource("80_4obbf")
+bait_sound = ExtResource("77_5dllo")
+door_close_sound = ExtResource("100_tttfs")
+flashlight_turn = ExtResource("101_1iygd")
+shock_sound = ExtResource("102_g5xqc")
+monitor_sound = ExtResource("103_s4o1y")
+camera_switch_sound = ExtResource("104_7mmqq")
+power_down_sound = ExtResource("105_3exxq")
+victory_sound = ExtResource("106_5aa3q")
+bear_honk_sound = ExtResource("101_am8a1")
+random_sounds = Array[AudioStream]([ExtResource("101_tko6h"), ExtResource("102_am8a1"), ExtResource("103_8dc3g"), ExtResource("94_d5iia"), ExtResource("105_htgcl"), ExtResource("95_asu84"), ExtResource("107_smeu8"), ExtResource("108_f3y11"), ExtResource("96_qwt6e")])
+random_players = [NodePath("RandomPlayers/Random1"), NodePath("RandomPlayers/Random2"), NodePath("RandomPlayers/Random3"), NodePath("RandomPlayers/Random4"), NodePath("RandomPlayers/Random5"), NodePath("RandomPlayers/Random6")]
+
+[node name="FlashlightPlayer" type="AudioStreamPlayer" parent="AudioController" unique_id=1432365502]
+
+[node name="ShockPlayer" type="AudioStreamPlayer" parent="AudioController" unique_id=775575713]
+
+[node name="BaitPlayer" type="AudioStreamPlayer" parent="AudioController" unique_id=1833795192]
+
+[node name="MusicPlayer" type="AudioStreamPlayer" parent="AudioController" unique_id=696517180]
+volume_db = -5.0
+
+[node name="SFXPlayer" type="AudioStreamPlayer" parent="AudioController" unique_id=1656407367]
+volume_db = -1.0
+
+[node name="DoorPlayerKitchen" type="AudioStreamPlayer" parent="AudioController" unique_id=1585270453]
+
+[node name="DoorPlayerS" type="AudioStreamPlayer" parent="AudioController" unique_id=2058468521]
+
+[node name="VideoPlayer" type="AudioStreamPlayer3D" parent="AudioController" unique_id=1205201970]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 27.113716, 0, 7.6848335)
+
+[node name="VhsPlayer" type="AudioStreamPlayer3D" parent="AudioController" unique_id=87177105]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 27.113716, 0, 7.6848335)
+pitch_scale = 4.0
+max_distance = 40.0
+
+[node name="OfficePlayer" type="AudioStreamPlayer3D" parent="AudioController" unique_id=1249243124]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 37.394585, 0, 0.5954542)
+volume_db = -5.0
+
+[node name="RandomTimer" type="Timer" parent="AudioController" unique_id=1506237761]
+one_shot = true
+
+[node name="RandomPlayers" type="Node3D" parent="AudioController" unique_id=663826587]
+
+[node name="Random1" type="AudioStreamPlayer3D" parent="AudioController/RandomPlayers" unique_id=376581043]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.396387, 0, 0)
+volume_db = -10.0
+panning_strength = 3.0
+
+[node name="Random2" type="AudioStreamPlayer3D" parent="AudioController/RandomPlayers" unique_id=7589757]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.016297, 0, -8.314672)
+volume_db = -10.0
+panning_strength = 3.0
+
+[node name="Random3" type="AudioStreamPlayer3D" parent="AudioController/RandomPlayers" unique_id=1444815265]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.414643, 0, 2.4485197)
+volume_db = -10.0
+panning_strength = 3.0
+
+[node name="Random4" type="AudioStreamPlayer3D" parent="AudioController/RandomPlayers" unique_id=1511306478]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.8188877, 0, 9.86289)
+volume_db = -10.0
+panning_strength = 3.0
+
+[node name="Random5" type="AudioStreamPlayer3D" parent="AudioController/RandomPlayers" unique_id=957349296]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22.516169, 0, 0.5737915)
+volume_db = -10.0
+panning_strength = 3.0
+
+[node name="Random6" type="AudioStreamPlayer3D" parent="AudioController/RandomPlayers" unique_id=1478230795]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30.376177, 0, -7.762581)
+volume_db = -10.0
+panning_strength = 3.0
+
+[node name="GameController" type="Node3D" parent="." unique_id=1930443470 node_paths=PackedStringArray("victory_overlay", "audio_controller")]
+script = ExtResource("80_birbe")
+victory_overlay = NodePath("../UI/VictoryOverlay")
+audio_controller = NodePath("../AudioController")
+
+[node name="MonsterController" type="Node3D" parent="." unique_id=637215244 node_paths=PackedStringArray("game_controller", "audio_controller", "actions_controller")]
+unique_name_in_owner = true
+script = ExtResource("113_f3y11")
+game_controller = NodePath("../GameController")
+audio_controller = NodePath("../AudioController")
+actions_controller = NodePath("../ControlActions")
+
+[node name="MonsterPos" type="Node3D" parent="MonsterController" unique_id=2089732263]
+
+[node name="AntPos" type="Node3D" parent="MonsterController/MonsterPos" unique_id=615275692]
+transform = Transform3D(-0.02928321, 0, 0.9995711, 0, 1, 0, -0.9995711, 0, -0.02928321, 28.327463, 1.2128764, -6.8206635)
+
+[node name="QuartoBIni" type="Marker3D" parent="MonsterController/MonsterPos/AntPos" unique_id=1394898747]
+transform = Transform3D(2.8416307, 0, -0.9618389, 0, 3, 0, 0.9618389, 0, 2.8416307, -0.009999752, 0, 0.5109997)
+
+[node name="Corredor" type="Marker3D" parent="MonsterController/MonsterPos/AntPos" unique_id=331649960]
+transform = Transform3D(-2.5680864, -1.5503242, -0.037787713, -1.5490689, 2.567921, -0.07853085, 0.072928034, -0.047712743, -2.998734, -4.7815714, 0.00012362003, -3.4539661)
+
+[node name="Escada" type="Marker3D" parent="MonsterController/MonsterPos/AntPos" unique_id=8362502]
+transform = Transform3D(2.9842224, 0, -0.30727378, 0, 3, 0, 0.30727378, 0, 2.9842224, -9.850149, 0.16948783, -31.3569)
+
+[node name="Jumpscare" type="Marker3D" parent="MonsterController/MonsterPos/AntPos" unique_id=1470825836]
+transform = Transform3D(0.028937593, 0, -2.9998603, 0, 3, 0, 2.9998603, 0, 0.028937593, -4.460132, 0.16948783, -23.556316)
+
+[node name="MonsterModel" type="Node3D" parent="MonsterController" unique_id=443513249]
+script = ExtResource("114_cpm2s")
+
+[node name="MonsterAnt" type="Node3D" parent="MonsterController/MonsterModel" unique_id=1419306222 node_paths=PackedStringArray("markers", "move_timer", "kitchen_door", "jumpscare_position")]
+transform = Transform3D(0.9992422, 0, 0.038923565, 0, 1, 0, -0.038923565, 0, 0.9992422, 0, 0, 0)
+script = ExtResource("113_smeu8")
+markers = [NodePath("../../MonsterPos/AntPos/QuartoBIni"), NodePath("../../MonsterPos/AntPos/Corredor"), NodePath("../../MonsterPos/AntPos/Escada"), NodePath("../../MonsterPos/AntPos/Jumpscare")]
+move_timer = NodePath("MoveTimer")
+attack_position = Vector3(4.912, 1.382, 0.996)
+kitchen_door = NodePath("../../../House/Terreo/SalaReal/Interaveis/PortaEscada")
+jumpscare_position = NodePath("../../MonsterPos/AntPos/Jumpscare")
+
+[node name="Sprite" type="Sprite3D" parent="MonsterController/MonsterModel/MonsterAnt" unique_id=385619967]
+shaded = true
+texture = ExtResource("113_htgcl")
+
+[node name="MoveTimer" type="Timer" parent="MonsterController/MonsterModel/MonsterAnt" unique_id=2125822951]
+wait_time = 5.0
+autostart = true
+
+[node name="UI" type="CanvasLayer" parent="." unique_id=1900677141]
+
+[node name="CameraUI" type="Control" parent="UI" unique_id=991266275]
+visible = false
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="NoSignal" type="ColorRect" parent="UI/CameraUI" unique_id=1085828693]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+
+[node name="Label" type="Label" parent="UI/CameraUI/NoSignal" unique_id=2139858357]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_top = -11.5
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+text = "NO SIGNAL"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="FlashEffect" type="ColorRect" parent="UI/CameraUI" unique_id=1584820624]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="Map" type="TextureRect" parent="UI/CameraUI" unique_id=32277209]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -378.0
+offset_top = -264.0
+offset_right = 164.0
+offset_bottom = 111.0
+grow_horizontal = 0
+grow_vertical = 0
+scale = Vector2(0.7, 0.7)
+texture = SubResource("CompressedTexture2D_c2n8d")
+
+[node name="Buttons" type="Control" parent="UI/CameraUI" unique_id=922402953]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Button" type="Button" parent="UI/CameraUI/Buttons" unique_id=1501999367]
+layout_mode = 0
+offset_left = 904.0
+offset_top = 412.0
+offset_right = 945.0
+offset_bottom = 443.0
+text = "C 01"
+
+[node name="Button2" type="Button" parent="UI/CameraUI/Buttons" unique_id=966516013]
+layout_mode = 0
+offset_left = 783.0
+offset_top = 442.0
+offset_right = 824.0
+offset_bottom = 473.0
+text = "C 02
+"
+
+[node name="Button3" type="Button" parent="UI/CameraUI/Buttons" unique_id=835614288]
+layout_mode = 0
+offset_left = 912.0
+offset_top = 612.0
+offset_right = 953.0
+offset_bottom = 643.0
+text = "C 03"
+
+[node name="Button4" type="Button" parent="UI/CameraUI/Buttons" unique_id=939599946]
+layout_mode = 0
+offset_left = 1000.0
+offset_top = 476.0
+offset_right = 1041.0
+offset_bottom = 507.0
+text = "C 04
+"
+
+[node name="Button5" type="Button" parent="UI/CameraUI/Buttons" unique_id=352984455]
+layout_mode = 0
+offset_left = 1060.0
+offset_top = 442.0
+offset_right = 1101.0
+offset_bottom = 473.0
+text = "C 05"
+
+[node name="Button6" type="Button" parent="UI/CameraUI/Buttons" unique_id=1746019827]
+layout_mode = 0
+offset_left = 1060.0
+offset_top = 507.0
+offset_right = 1101.0
+offset_bottom = 538.0
+text = "C 06
+"
+
+[node name="Button7" type="Button" parent="UI/CameraUI/Buttons" unique_id=1901402561]
+layout_mode = 0
+offset_left = 1117.0
+offset_top = 476.0
+offset_right = 1158.0
+offset_bottom = 507.0
+text = "C 07
+"
+
+[node name="CameraAction" type="Button" parent="UI/CameraUI" unique_id=782666216]
+layout_mode = 0
+offset_left = 912.0
+offset_top = 336.0
+offset_right = 1042.0
+offset_bottom = 367.0
+text = "Test"
+
+[node name="VideoProgress" type="ProgressBar" parent="UI/CameraUI" unique_id=246386490]
+layout_mode = 0
+offset_left = 912.0
+offset_top = 295.0
+offset_right = 1039.0
+offset_bottom = 322.0
+theme_override_styles/background = SubResource("StyleBoxFlat_g4v7s")
+theme_override_styles/fill = SubResource("StyleBoxFlat_yf5fn")
+value = 100.0
+show_percentage = false
+
+[node name="GameHUD" type="Control" parent="UI" unique_id=1138840448]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="HourLabel" type="Label" parent="UI/GameHUD" unique_id=898390337]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -20.0
+offset_right = 20.0
+offset_bottom = 23.0
+grow_horizontal = 2
+
+[node name="EnergyBar" type="ProgressBar" parent="UI/GameHUD" unique_id=290388549]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 617.0
+offset_right = 197.0
+offset_bottom = 644.0
+theme_override_styles/background = SubResource("StyleBoxFlat_c2n8d")
+theme_override_styles/fill = SubResource("StyleBoxFlat_wy5fy")
+value = 100.0
+show_percentage = false
+
+[node name="EnergyLabel" type="Label" parent="UI/GameHUD" unique_id=366755896]
+layout_mode = 0
+offset_left = 7.0
+offset_top = 592.0
+offset_right = 120.0
+offset_bottom = 615.0
+
+[node name="VictoryOverlay" type="Control" parent="UI" unique_id=1962977182]
+visible = false
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Background" type="ColorRect" parent="UI/VictoryOverlay" unique_id=1025238525]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="VictoryLabel" type="Label" parent="UI/VictoryOverlay" unique_id=799333730]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "8 AM"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=241959875]
+environment = SubResource("Environment_yf5fn")
+
+[connection signal="energy_depleted" from="EnergyController" to="ControlActions" method="_on_energy_controller_energy_depleted"]
+[connection signal="night_finished" from="NightController" to="GameController" method="_on_night_controller_night_finished"]
+[connection signal="timeout" from="AudioController/RandomTimer" to="AudioController" method="_on_random_timer_timeout"]
+[connection signal="timeout" from="MonsterController/MonsterModel/MonsterAnt/MoveTimer" to="MonsterController/MonsterModel/MonsterAnt" method="_on_move_timer_timeout"]
+[connection signal="pressed" from="UI/CameraUI/Buttons/Button" to="PlayerCam" method="_on_button_pressed"]
+[connection signal="pressed" from="UI/CameraUI/Buttons/Button2" to="PlayerCam" method="_on_button_2_pressed"]
+[connection signal="pressed" from="UI/CameraUI/Buttons/Button3" to="PlayerCam" method="_on_button_3_pressed"]
+[connection signal="pressed" from="UI/CameraUI/Buttons/Button4" to="PlayerCam" method="_on_button_4_pressed"]
+[connection signal="pressed" from="UI/CameraUI/Buttons/Button5" to="PlayerCam" method="_on_button_5_pressed"]
+[connection signal="pressed" from="UI/CameraUI/Buttons/Button6" to="PlayerCam" method="_on_button_6_pressed"]
+[connection signal="pressed" from="UI/CameraUI/Buttons/Button7" to="PlayerCam" method="_on_button_7_pressed"]
+[connection signal="pressed" from="UI/CameraUI/CameraAction" to="PlayerCam" method="_on_camera_action_pressed"]
+
+[editable path="PlayerCam/MainCam/TABLETA"]

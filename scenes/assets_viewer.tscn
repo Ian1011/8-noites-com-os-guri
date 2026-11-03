@@ -1,0 +1,284 @@
+[gd_scene format=3 uid="uid://ceb87ekddo5v1"]
+
+[ext_resource type="PackedScene" uid="uid://chkla05tbwfye" path="res://assets/house_psx/geometry/ceilingConcrete.glb" id="1_wunbw"]
+[ext_resource type="PackedScene" uid="uid://tjlvkax0hvdw" path="res://assets/house_psx/geometry/ceilingHalfConcrete.glb" id="2_bxuxk"]
+[ext_resource type="PackedScene" uid="uid://c3ywd3kdf0nda" path="res://assets/house_psx/geometry/ceilingHalfPlaster2.glb" id="3_260kd"]
+[ext_resource type="PackedScene" uid="uid://chan12cdemdv1" path="res://assets/house_psx/geometry/ceilingHalfPlaster3.glb" id="4_86hgn"]
+[ext_resource type="PackedScene" uid="uid://dcxsoyv8ncbyf" path="res://assets/house_psx/geometry/ceilingHalfPlaster.glb" id="5_k384d"]
+[ext_resource type="PackedScene" uid="uid://dij1cwmw3q48m" path="res://assets/house_psx/geometry/ceilingHalfTiles.glb" id="6_ifhmc"]
+[ext_resource type="PackedScene" uid="uid://bs7t26b1cwkej" path="res://assets/house_psx/geometry/ceilingHalfWood.glb" id="7_lrva2"]
+[ext_resource type="PackedScene" uid="uid://da5h44tvrw2kc" path="res://assets/house_psx/geometry/ceilingPlaster2.glb" id="8_i1s7u"]
+[ext_resource type="PackedScene" uid="uid://c740w25sqe84" path="res://assets/house_psx/geometry/ceilingPlaster3.glb" id="9_h31a8"]
+[ext_resource type="PackedScene" uid="uid://c540mphtkrj66" path="res://assets/house_psx/geometry/ceilingPlaster.glb" id="10_j262h"]
+[ext_resource type="PackedScene" uid="uid://c06af3fwp828g" path="res://assets/house_psx/geometry/ceilingTiles.glb" id="11_xajav"]
+[ext_resource type="PackedScene" uid="uid://c7dp4xuvsda56" path="res://assets/house_psx/geometry/ceilingWood.glb" id="12_mutve"]
+[ext_resource type="PackedScene" uid="uid://bc1jdeqkoclvs" path="res://assets/house_psx/geometry/cornerPillarMetal.glb" id="13_em1y6"]
+[ext_resource type="PackedScene" uid="uid://cl5rbby6o4wpm" path="res://assets/house_psx/geometry/cornerPillarPlaster.glb" id="14_42gkc"]
+[ext_resource type="PackedScene" uid="uid://wsa3tse2scau" path="res://assets/house_psx/geometry/cornerPillarStone.glb" id="15_3twv5"]
+[ext_resource type="PackedScene" uid="uid://bubxykiyrjyp0" path="res://assets/house_psx/geometry/cornerPillarWood.glb" id="16_0etpo"]
+[ext_resource type="PackedScene" uid="uid://bcgffadce1hou" path="res://assets/house_psx/geometry/doorWood2.glb" id="17_64514"]
+[ext_resource type="PackedScene" uid="uid://b42bjrspew8kn" path="res://assets/house_psx/geometry/doorWood3.glb" id="18_ubkjg"]
+[ext_resource type="PackedScene" uid="uid://cl235nmrvnil7" path="res://assets/house_psx/geometry/doorWood.glb" id="19_6d28h"]
+[ext_resource type="PackedScene" uid="uid://nby1c6ncmo73" path="res://assets/house_psx/geometry/floorCarpet2.glb" id="20_d6qx0"]
+[ext_resource type="PackedScene" uid="uid://ccjkswg8saa7m" path="res://assets/house_psx/geometry/floorCarpet.glb" id="21_2riww"]
+[ext_resource type="PackedScene" uid="uid://c48gc5sh4ir6y" path="res://assets/house_psx/geometry/floorHalfCarpet2.glb" id="22_d5rpw"]
+[ext_resource type="PackedScene" uid="uid://oxwdfyorvl0u" path="res://assets/house_psx/geometry/floorHalfCarpet.glb" id="23_2pc52"]
+[ext_resource type="PackedScene" uid="uid://c5i3fr5tnf6rh" path="res://assets/house_psx/geometry/floorHalfMarble.glb" id="24_pau2l"]
+[ext_resource type="PackedScene" uid="uid://dlr55amu4t5hk" path="res://assets/house_psx/geometry/floorHalfStone.glb" id="25_u88m7"]
+[ext_resource type="PackedScene" uid="uid://c53tm4363nqfp" path="res://assets/house_psx/geometry/floorHalfTiles.glb" id="26_tujms"]
+[ext_resource type="PackedScene" uid="uid://bovw4duu7i8uv" path="res://assets/house_psx/geometry/floorHalfWood.glb" id="27_fx8g4"]
+[ext_resource type="PackedScene" uid="uid://4g3y8v2bqh83" path="res://assets/house_psx/geometry/floorMarble.glb" id="28_hqchj"]
+[ext_resource type="PackedScene" uid="uid://dn1v62at4ipqa" path="res://assets/house_psx/geometry/floorStone.glb" id="29_xtuwc"]
+[ext_resource type="PackedScene" uid="uid://xxesm703gi8e" path="res://assets/house_psx/geometry/floorTiles.glb" id="30_mklqo"]
+[ext_resource type="PackedScene" uid="uid://c10fnfx63b3ci" path="res://assets/house_psx/geometry/stairsGuardMetal2.glb" id="31_3nyt6"]
+[ext_resource type="PackedScene" uid="uid://b0ok11wwhp7mu" path="res://assets/house_psx/geometry/stairsGuardMetal.glb" id="32_tbm0u"]
+[ext_resource type="PackedScene" uid="uid://cy3xpexnw6q88" path="res://assets/house_psx/geometry/stairsGuardWood2.glb" id="33_rttd5"]
+[ext_resource type="PackedScene" uid="uid://bf66jo8bvwksh" path="res://assets/house_psx/geometry/stairsGuardWood.glb" id="34_7qcnb"]
+[ext_resource type="PackedScene" uid="uid://vfemjcw0ip8s" path="res://assets/house_psx/geometry/stairsRailCornerMetal.glb" id="35_hxk4f"]
+[ext_resource type="PackedScene" uid="uid://c1mujojmt4qjy" path="res://assets/house_psx/geometry/stairsRailCornerWood2.glb" id="36_u6rsj"]
+[ext_resource type="PackedScene" uid="uid://bgtjtsd2b28hh" path="res://assets/house_psx/geometry/stairsRailMetal.glb" id="37_smash"]
+[ext_resource type="PackedScene" uid="uid://dfhq0uphwroxw" path="res://assets/house_psx/geometry/stairsRailWood.glb" id="38_xhi81"]
+[ext_resource type="PackedScene" uid="uid://bxe5rrb6qhnag" path="res://assets/house_psx/geometry/stairsWood2.glb" id="39_mwmmy"]
+[ext_resource type="PackedScene" uid="uid://cgwp6r32nk1sj" path="res://assets/house_psx/geometry/stairsWood3.glb" id="40_hremv"]
+[ext_resource type="PackedScene" uid="uid://bahvtl4niw6t1" path="res://assets/house_psx/geometry/stairsWood4.glb" id="41_u8xwg"]
+[ext_resource type="PackedScene" uid="uid://bl4me3de6rvpx" path="res://assets/house_psx/geometry/stairsWood.glb" id="42_t2aux"]
+[ext_resource type="PackedScene" uid="uid://cevasmkhygt5e" path="res://assets/house_psx/geometry/wallBrick.glb" id="43_t6ffl"]
+[ext_resource type="PackedScene" uid="uid://bim5ifbpxvj2s" path="res://assets/house_psx/geometry/wallDiagonalBrick.glb" id="44_8dw5n"]
+[ext_resource type="PackedScene" uid="uid://tmqdusf72ie2" path="res://assets/house_psx/geometry/wallDiagonalPlaster2.glb" id="45_2mr6w"]
+[ext_resource type="PackedScene" uid="uid://dpe2j6vwm31y2" path="res://assets/house_psx/geometry/wallDiagonalPlaster3.glb" id="46_giwlr"]
+[ext_resource type="PackedScene" uid="uid://bet6elev1buej" path="res://assets/house_psx/geometry/wallDiagonalPlaster.glb" id="47_g3dhp"]
+[ext_resource type="PackedScene" uid="uid://bvx3et4oredry" path="res://assets/house_psx/geometry/wallDiagonalTiles.glb" id="48_4hkso"]
+[ext_resource type="PackedScene" uid="uid://dpinn6pd4e0if" path="res://assets/house_psx/geometry/wallDiagonalWallpaper2.glb" id="49_mwsdc"]
+[ext_resource type="PackedScene" uid="uid://bfapbrsg2k2pd" path="res://assets/house_psx/geometry/wallDoorBrick.glb" id="50_5v5r1"]
+[ext_resource type="PackedScene" uid="uid://bd2eeiana00kt" path="res://assets/house_psx/geometry/wallDoorMarble.glb" id="51_ki1qp"]
+[ext_resource type="PackedScene" uid="uid://c6p78xb56tkwo" path="res://assets/house_psx/geometry/wallDoorPlaster3.glb" id="52_3tfkp"]
+[ext_resource type="PackedScene" uid="uid://p6u4f5hypwx2" path="res://assets/house_psx/geometry/wallDoorPlaster.glb" id="53_5ex6c"]
+[ext_resource type="PackedScene" uid="uid://x8mkr151vdsn" path="res://assets/house_psx/geometry/wallDoorTiles.glb" id="54_07krv"]
+[ext_resource type="PackedScene" uid="uid://b1qca5y700wt5" path="res://assets/house_psx/geometry/wallDoorWallpaper2.glb" id="55_vaoh3"]
+[ext_resource type="PackedScene" uid="uid://cwr2an762wfms" path="res://assets/house_psx/geometry/wallDoorWood.glb" id="56_earno"]
+[ext_resource type="PackedScene" uid="uid://bh7e8blndcwsg" path="res://assets/house_psx/geometry/wallHalfBrick.glb" id="57_j3mgu"]
+[ext_resource type="PackedScene" uid="uid://dysaisbtxktyd" path="res://assets/house_psx/geometry/wallHalfMarble.glb" id="58_qt337"]
+[ext_resource type="PackedScene" uid="uid://cktgkgr54ojyc" path="res://assets/house_psx/geometry/wallHalfPlaster2.glb" id="59_t80ym"]
+[ext_resource type="PackedScene" uid="uid://625gf7ytb03t" path="res://assets/house_psx/geometry/wallNibMarble.glb" id="60_8gbia"]
+[ext_resource type="PackedScene" uid="uid://c8d3mq40ejiic" path="res://assets/house_psx/geometry/wallStairsBrick.glb" id="61_qkqg4"]
+[ext_resource type="PackedScene" uid="uid://clw8jstfhlow0" path="res://assets/house_psx/geometry/wallWallpaper.glb" id="62_5pwgu"]
+[ext_resource type="PackedScene" uid="uid://csugtsad57b6r" path="res://assets/house_psx/geometry/wallTurnWood.glb" id="63_yekcd"]
+[ext_resource type="PackedScene" uid="uid://2a74cvjuifu8" path="res://assets/house_psx/geometry/wallTurnMarble.glb" id="64_2jcl1"]
+[ext_resource type="PackedScene" uid="uid://dn5kelwbaqsqw" path="res://assets/house_psx/geometry/wallWindowBrick.glb" id="65_ta14m"]
+[ext_resource type="PackedScene" uid="uid://cfynslgd2oreu" path="res://assets/house_psx/geometry/wallWindowMarble.glb" id="66_1spim"]
+[ext_resource type="PackedScene" uid="uid://dojffiyiubxj4" path="res://assets/house_psx/geometry/wallWindowTiles.glb" id="67_2xgox"]
+[ext_resource type="PackedScene" uid="uid://bqf52hwuigwg3" path="res://assets/house_psx/geometry/wallWindowWallpaper2.glb" id="68_xjwll"]
+[ext_resource type="PackedScene" uid="uid://d2rupyhgwkqlo" path="res://assets/house_psx/geometry/wallWood.glb" id="69_yhjtb"]
+[ext_resource type="PackedScene" uid="uid://bvt7tp0plc867" path="res://assets/house_psx/geometry/wallWindowWood.glb" id="70_8cp0u"]
+
+[node name="AssetsViewer" type="Node2D" unique_id=527505521]
+
+[node name="ceilingConcrete2" parent="." unique_id=1170274568 instance=ExtResource("1_wunbw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 6)
+
+[node name="ceilingHalfConcrete2" parent="." unique_id=220993073 instance=ExtResource("2_bxuxk")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, 2)
+
+[node name="ceilingHalfPlaster22" parent="." unique_id=270066997 instance=ExtResource("3_260kd")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 0, 5)
+
+[node name="ceilingHalfPlaster32" parent="." unique_id=1524207299 instance=ExtResource("4_86hgn")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15, 0, 3)
+
+[node name="ceilingHalfPlaster2" parent="." unique_id=1918146866 instance=ExtResource("5_k384d")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, 4)
+
+[node name="ceilingHalfTiles2" parent="." unique_id=1323779638 instance=ExtResource("6_ifhmc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, 8)
+
+[node name="ceilingHalfWood2" parent="." unique_id=1984970938 instance=ExtResource("7_lrva2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 0, 8)
+
+[node name="ceilingPlaster22" parent="." unique_id=1427618553 instance=ExtResource("8_i1s7u")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14, 0, 7)
+
+[node name="ceilingPlaster32" parent="." unique_id=478074990 instance=ExtResource("9_h31a8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, 8)
+
+[node name="ceilingPlaster2" parent="." unique_id=1190395228 instance=ExtResource("10_j262h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, 11)
+
+[node name="ceilingTiles2" parent="." unique_id=1061194861 instance=ExtResource("11_xajav")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 11)
+
+[node name="ceilingWood2" parent="." unique_id=862637845 instance=ExtResource("12_mutve")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 11)
+
+[node name="cornerPillarMetal2" parent="." unique_id=1354410134 instance=ExtResource("13_em1y6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.924963, 0, 25.329456)
+
+[node name="cornerPillarPlaster2" parent="." unique_id=207100648 instance=ExtResource("14_42gkc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.9074547, 0, 26.191774)
+
+[node name="cornerPillarStone2" parent="." unique_id=1493468790 instance=ExtResource("15_3twv5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.8127152, 0, 25.786457)
+
+[node name="cornerPillarWood2" parent="." unique_id=1530930320 instance=ExtResource("16_0etpo")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.563302, 0, 25.684032)
+
+[node name="doorWood22" parent="." unique_id=1786355059 instance=ExtResource("17_64514")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.51343, 9.536743e-07, 29.574677)
+
+[node name="doorWood32" parent="." unique_id=916280436 instance=ExtResource("18_ubkjg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.5275629, 0, 29.557371)
+
+[node name="doorWood2" parent="." unique_id=2114933422 instance=ExtResource("19_6d28h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.03132361, 0, 29.192558)
+
+[node name="floorCarpet22" parent="." unique_id=1329588231 instance=ExtResource("20_d6qx0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.2623057, -0.6200523, 34.88003)
+
+[node name="floorCarpet2" parent="." unique_id=185339132 instance=ExtResource("21_2riww")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.014371872, -1.0573254, 34.69758)
+
+[node name="floorHalfCarpet22" parent="." unique_id=951472994 instance=ExtResource("22_d5rpw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.1163077, 3.597042, 42.436745)
+
+[node name="floorHalfCarpet2" parent="." unique_id=698881056 instance=ExtResource("23_2pc52")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.13793504, 2.3932018, 42.325405)
+
+[node name="floorHalfMarble2" parent="." unique_id=258591691 instance=ExtResource("24_pau2l")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.826712, -0.7154522, 39.968025)
+
+[node name="floorHalfStone2" parent="." unique_id=313385601 instance=ExtResource("25_u88m7")]
+transform = Transform3D(1, 0, 0, 0, 0.9997352, -0.023011569, 0, 0.023011569, 0.9997352, 5.093572, 1.1641636, 41.268883)
+
+[node name="floorHalfTiles2" parent="." unique_id=586525108 instance=ExtResource("26_tujms")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.625366, -3.3207626, 45.88137)
+
+[node name="floorHalfWood2" parent="." unique_id=1892704936 instance=ExtResource("27_fx8g4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.843791, 1.0015602, 41.405594)
+
+[node name="floorMarble2" parent="." unique_id=243010290 instance=ExtResource("28_hqchj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.418522, 1.8766994, 36.71102)
+
+[node name="floorStone2" parent="." unique_id=1757281135 instance=ExtResource("29_xtuwc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.929886, -6.526743, 34.089943)
+
+[node name="floorTiles2" parent="." unique_id=1483233742 instance=ExtResource("30_mklqo")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.315838, -8.762564, 51.907246)
+
+[node name="stairsGuardMetal22" parent="." unique_id=1953498173 instance=ExtResource("31_3nyt6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 21.142025, 0, 5.5265884)
+
+[node name="stairsGuardMetal2" parent="." unique_id=9442183 instance=ExtResource("32_tbm0u")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24.936535, 0, 18.35144)
+
+[node name="stairsGuardWood22" parent="." unique_id=266602743 instance=ExtResource("33_rttd5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 29.170298, 0, 25.750933)
+
+[node name="stairsGuardWood2" parent="." unique_id=1569723292 instance=ExtResource("34_7qcnb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28.458893, 0, 37.75748)
+
+[node name="stairsRailCornerMetal2" parent="." unique_id=215997696 instance=ExtResource("35_hxk4f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 39.721302, 0, 24.930504)
+
+[node name="stairsRailCornerWood22" parent="." unique_id=373117279 instance=ExtResource("36_u6rsj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 40.01657, 0, 20.550993)
+
+[node name="stairsRailMetal2" parent="." unique_id=883889831 instance=ExtResource("37_smash")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 38.478268, 4.7683716e-07, 17.065945)
+
+[node name="stairsRailWood2" parent="." unique_id=1375879041 instance=ExtResource("38_xhi81")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 38.86191, 0, 14.026831)
+
+[node name="stairsWood22" parent="." unique_id=1813941134 instance=ExtResource("39_mwmmy")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 33.534473, 0, 6.018861)
+
+[node name="stairsWood32" parent="." unique_id=1795839797 instance=ExtResource("40_hremv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 39.34828, 0, 7.137603)
+
+[node name="stairsWood42" parent="." unique_id=1085555723 instance=ExtResource("41_u8xwg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 38.22196, 0, 25.19094)
+
+[node name="stairsWood2" parent="." unique_id=776807109 instance=ExtResource("42_t2aux")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 34.301014, 0, 36.90294)
+
+[node name="wallBrick2" parent="." unique_id=1659339604 instance=ExtResource("43_t6ffl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -31.826824, 0, 27.26666)
+
+[node name="wallDiagonalBrick2" parent="." unique_id=1682925720 instance=ExtResource("44_8dw5n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -42.507565, 0, 31.466335)
+
+[node name="wallDiagonalPlaster22" parent="." unique_id=1650115296 instance=ExtResource("45_2mr6w")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -48.877583, 0, 37.16415)
+
+[node name="wallDiagonalPlaster32" parent="." unique_id=1878114430 instance=ExtResource("46_giwlr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -54.98113, 0, 40.612473)
+
+[node name="wallDiagonalPlaster2" parent="." unique_id=1317197380 instance=ExtResource("47_g3dhp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -59.793537, 0, 33.649464)
+
+[node name="wallDiagonalTiles2" parent="." unique_id=304520869 instance=ExtResource("48_4hkso")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -53.899635, 0, 28.499159)
+
+[node name="wallDiagonalWallpaper22" parent="." unique_id=1066933990 instance=ExtResource("49_mwsdc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -48.28431, 0, 23.258251)
+
+[node name="wallDoorBrick2" parent="." unique_id=107157565 instance=ExtResource("50_5v5r1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -37.23042, 0, 29.978718)
+
+[node name="wallDoorMarble2" parent="." unique_id=909256622 instance=ExtResource("51_ki1qp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.10545, 0, 28.51811)
+
+[node name="wallDoorPlaster32" parent="." unique_id=2125923434 instance=ExtResource("52_3tfkp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -43.41184, -9.536743e-07, 38.30589)
+
+[node name="wallDoorPlaster2" parent="." unique_id=615007754 instance=ExtResource("53_5ex6c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -39.84745, 0, 37.003857)
+
+[node name="wallDoorTiles2" parent="." unique_id=1010979071 instance=ExtResource("54_07krv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -34.179047, 9.536743e-07, 35.718052)
+
+[node name="wallDoorWallpaper22" parent="." unique_id=1732484001 instance=ExtResource("55_vaoh3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.097267, 0, 35.099754)
+
+[node name="wallDoorWood2" parent="." unique_id=1820861859 instance=ExtResource("56_earno")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -37.97108, 0, 21.9344)
+
+[node name="wallHalfBrick2" parent="." unique_id=1283876366 instance=ExtResource("57_j3mgu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -27.620586, 0, 18.046476)
+
+[node name="wallHalfMarble2" parent="." unique_id=704174958 instance=ExtResource("58_qt337")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.280712, 9.536743e-07, 18.012892)
+
+[node name="wallHalfPlaster22" parent="." unique_id=922966793 instance=ExtResource("59_t80ym")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -42.913643, 0, 17.446693)
+
+[node name="wallNibMarble2" parent="." unique_id=357598826 instance=ExtResource("60_8gbia")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -58.758522, -9.536743e-07, 17.328102)
+
+[node name="wallStairsBrick2" parent="." unique_id=1030210784 instance=ExtResource("61_qkqg4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -66.85027, -9.536743e-07, 19.532774)
+
+[node name="wallWallpaper2" parent="." unique_id=1149318425 instance=ExtResource("62_5pwgu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -32.59311, 0, 17.176224)
+
+[node name="wallTurnWood2" parent="." unique_id=1169589344 instance=ExtResource("63_yekcd")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -26.53131, 0, 37.371574)
+
+[node name="wallTurnMarble2" parent="." unique_id=2077714743 instance=ExtResource("64_2jcl1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.31762, 0, 39.319393)
+
+[node name="wallWindowBrick2" parent="." unique_id=384768364 instance=ExtResource("65_ta14m")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -42.354954, 0, 44.20403)
+
+[node name="wallWindowMarble2" parent="." unique_id=1479175886 instance=ExtResource("66_1spim")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -36.558994, 0, 44.480976)
+
+[node name="wallWindowTiles2" parent="." unique_id=420930706 instance=ExtResource("67_2xgox")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -32.00329, 4.7683716e-07, 44.765045)
+
+[node name="wallWindowWallpaper22" parent="." unique_id=1920157366 instance=ExtResource("68_xjwll")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -40.745934, 0, 46.525486)
+
+[node name="wallWood2" parent="." unique_id=443072495 instance=ExtResource("69_yhjtb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -26.286945, 0, 45.037678)
+
+[node name="wallWindowWood2" parent="." unique_id=701101968 instance=ExtResource("70_8cp0u")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -26.347427, 0, 47.620495)

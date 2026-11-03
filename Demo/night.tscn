@@ -1,0 +1,192 @@
+[gd_scene format=3 uid="uid://dpmk6q5yxt51s"]
+
+[ext_resource type="Script" uid="uid://dqv0ho8vygysb" path="res://door_left.gd" id="1_duiv2"]
+[ext_resource type="Script" uid="uid://dbogetpga0p2e" path="res://door_right.gd" id="1_h0nnu"]
+[ext_resource type="Script" uid="uid://dqfwpcjytg6hi" path="res://night.gd" id="1_uq5vu"]
+[ext_resource type="BoxMesh" uid="uid://wpxdoxcujqgi" path="res://wall.tres" id="3_mwgpu"]
+[ext_resource type="Script" uid="uid://o74g2j440ib2" path="res://player_cameras.gd" id="4_wk727"]
+[ext_resource type="Texture2D" uid="uid://c0okel4mhjnvd" path="res://WhatsApp Image 2026-09-12 at 13.56.18.jpeg" id="5_osdpk"]
+[ext_resource type="Script" uid="uid://gcfmfpm51uf5" path="res://Demo/demons_controller.gd" id="5_ymyf8"]
+[ext_resource type="Script" uid="uid://cyu8ywt1raitv" path="res://sprite_3d.gd" id="6_osdpk"]
+[ext_resource type="Script" uid="uid://cxmse7m2hi0h2" path="res://positions.gd" id="7_ymyf8"]
+[ext_resource type="AudioStream" uid="uid://bbdxwake63chk" path="res://jumpscare_sound.wav" id="9_rdwkb"]
+
+[sub_resource type="Environment" id="Environment_g4v7s"]
+ambient_light_energy = 0.0
+
+[sub_resource type="BoxMesh" id="BoxMesh_g4v7s"]
+size = Vector3(16, 0, 16)
+
+[sub_resource type="BoxMesh" id="BoxMesh_yf5fn"]
+size = Vector3(10, 5, 0.2)
+
+[sub_resource type="BoxMesh" id="BoxMesh_57qmd"]
+size = Vector3(3, 0.2, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_d0u6y"]
+size = Vector3(0.25, 1, 0.25)
+
+[node name="Night" type="Node3D" unique_id=402988815]
+script = ExtResource("1_uq5vu")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1875342775]
+environment = SubResource("Environment_g4v7s")
+
+[node name="AreaLight3D" type="AreaLight3D" parent="WorldEnvironment" unique_id=2012286827]
+transform = Transform3D(0.7498461, 0, -0.6616123, 0, 1, 0, 0.6616123, 0, 0.7498461, 3.2873516, 2.0305958, 3.0873985)
+area_range = 4096.0
+area_attenuation = 0.372
+
+[node name="Office" type="Node3D" parent="." unique_id=829421006]
+
+[node name="Floor" type="MeshInstance3D" parent="Office" unique_id=1653112035]
+transform = Transform3D(0.9999127, 0, -0.013216196, 0, 1, 0, 0.013216196, 0, 0.9999127, 0, 0, 0)
+mesh = SubResource("BoxMesh_g4v7s")
+
+[node name="WallFront" type="MeshInstance3D" parent="Office" unique_id=192841665]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.5780523, -5.3345137)
+mesh = SubResource("BoxMesh_yf5fn")
+
+[node name="WallLeft" type="CSGCombiner3D" parent="Office" unique_id=1256960405]
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Office/WallLeft" unique_id=604564212]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -4.887702, 2.5157394, -0.4186554)
+size = Vector3(10, 5.1, 0.2)
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="Office/WallLeft" unique_id=1942462138]
+transform = Transform3D(-4.3711385e-08, 0, 0.99999994, 0, 1, 0, -0.99999994, 0, -4.3711385e-08, -4.842418, 1.4933934, -0.2273972)
+operation = 2
+size = Vector3(1.5, 3, 0.3)
+
+[node name="WallRight" type="CSGCombiner3D" parent="Office" unique_id=817798070]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.801961, 0, 0)
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Office/WallRight" unique_id=806624583]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -4.887702, 2.561472, -0.4186554)
+size = Vector3(10, 5.1, 0.2)
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="Office/WallRight" unique_id=2060792416]
+transform = Transform3D(-4.3711385e-08, 0, 0.99999994, 0, 1, 0, -0.99999994, 0, -4.3711385e-08, -4.887685, 1.4725175, -0.21251583)
+operation = 2
+size = Vector3(1.5, 3, 0.3)
+
+[node name="Desk" type="Node3D" parent="Office" unique_id=416429958]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.322847, -3.452526)
+
+[node name="Top" type="MeshInstance3D" parent="Office/Desk" unique_id=1959218154]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.4978132, 0)
+mesh = SubResource("BoxMesh_57qmd")
+
+[node name="LegLeft" type="MeshInstance3D" parent="Office/Desk" unique_id=1666909637]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.1989884, 0.86579406, -0.22621107)
+mesh = SubResource("BoxMesh_d0u6y")
+
+[node name="LegRight" type="MeshInstance3D" parent="Office/Desk" unique_id=1669839319]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.2710483, 0.9069526, -0.022064567)
+mesh = SubResource("BoxMesh_d0u6y")
+
+[node name="Doors" type="Node3D" parent="Office" unique_id=770045229]
+
+[node name="DoorRight" type="Node3D" parent="Office/Doors" unique_id=1369038060]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.924, -1.578, -0.216)
+script = ExtResource("1_h0nnu")
+open_height = -1.5779999999999998
+closed_height = 1.479
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Office/Doors/DoorRight" unique_id=161706393]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0, 0, 0)
+size = Vector3(1.5, 3, 0.2)
+
+[node name="DoorLeft" type="Node3D" parent="Office/Doors" unique_id=1436726389]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.876, -1.578, -0.24)
+script = ExtResource("1_duiv2")
+open_height = -1.5779999999999998
+closed_height = 1.479
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Office/Doors/DoorLeft" unique_id=486251703]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0, 0, 0)
+size = Vector3(1.5, 3, 0.2)
+
+[node name="CorredorRight" type="Node3D" parent="Office" unique_id=71185369]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.1679325, 2.0394597, 0)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Office/CorredorRight" unique_id=394066155]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -2.361105, 0.41187668, -0.44359875)
+mesh = ExtResource("3_mwgpu")
+
+[node name="CorredorLeft" type="Node3D" parent="Office" unique_id=853635485]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Office/CorredorLeft" unique_id=645419309]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -7.056422, 2.3376727, -0.22128367)
+mesh = ExtResource("3_mwgpu")
+
+[node name="PlayerCameras" type="Node3D" parent="." unique_id=1859296904]
+script = ExtResource("4_wk727")
+
+[node name="OfficeCam" type="Camera3D" parent="PlayerCameras" unique_id=660746393]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.008563757, 1.5000001, 4.383003)
+
+[node name="RightCam" type="Camera3D" parent="PlayerCameras" unique_id=2117730719]
+transform = Transform3D(0.6281152, -0.17028826, 0.7592581, -0.21691248, 0.89876056, 0.38102245, -0.747275, -0.40401858, 0.52758765, 7.694721, 3.6015983, 1.8716593)
+
+[node name="LeftCam" type="Camera3D" parent="PlayerCameras" unique_id=1917887956]
+transform = Transform3D(0.6995041, 0.15546675, -0.6975129, 0.19268474, 0.89886945, 0.3935813, 0.6881619, -0.4097118, 0.59880674, -6.825322, 2.9044864, 0.9940311)
+
+[node name="AreaLight3D" type="AreaLight3D" parent="." unique_id=1931811818]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.9737062, 2.0305958, 1.1038672)
+
+[node name="DemonsController" type="Node3D" parent="." unique_id=1843469027]
+script = ExtResource("5_ymyf8")
+
+[node name="Sprite3D" type="Sprite3D" parent="DemonsController" unique_id=1334456196]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 2.7222824, -11.2943735)
+texture = ExtResource("5_osdpk")
+script = ExtResource("6_osdpk")
+
+[node name="Timer" type="Timer" parent="DemonsController/Sprite3D" unique_id=957767362]
+wait_time = 2.0
+autostart = true
+
+[node name="JumpscareT" type="Timer" parent="DemonsController/Sprite3D" unique_id=823909701]
+wait_time = 3.0
+one_shot = true
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="DemonsController/Sprite3D" unique_id=716596935]
+stream = ExtResource("9_rdwkb")
+volume_db = -1.0
+
+[node name="Positions" type="Node3D" parent="DemonsController" unique_id=254610381 node_paths=PackedStringArray("office_pos", "corredor_left_pos", "corredor_right_pos", "door_right_pos", "door_left_pos", "sala_pos", "jumpscare_pos")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.3209121, 0)
+script = ExtResource("7_ymyf8")
+office_pos = NodePath("Office_Pos")
+corredor_left_pos = NodePath("CorredorLeft_Pos")
+corredor_right_pos = NodePath("CorredorRight_Pos")
+door_right_pos = NodePath("DoorRight_Pos")
+door_left_pos = NodePath("DoorLeft_Pos")
+sala_pos = NodePath("Sala_Pos")
+jumpscare_pos = NodePath("Jumpscare_Pos")
+
+[node name="CorredorRight_Pos" type="Marker3D" parent="DemonsController/Positions" unique_id=588022440]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.386, 0, -5.389)
+
+[node name="CorredorLeft_Pos" type="Marker3D" parent="DemonsController/Positions" unique_id=1862950349]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.84896, 0, -2.5201545)
+
+[node name="Office_Pos" type="Marker3D" parent="DemonsController/Positions" unique_id=695769809]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.06, 0, -1.0986152)
+
+[node name="DoorRight_Pos" type="Marker3D" parent="DemonsController/Positions" unique_id=1023150204]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.1760406, 0, 0.9804774)
+
+[node name="DoorLeft_Pos" type="Marker3D" parent="DemonsController/Positions" unique_id=1454065496]
+transform = Transform3D(-0.4922487, 0, 0.8704546, 0, 1, 0, -0.8704546, 0, -0.4922487, -5.5323253, 0, 0)
+
+[node name="Sala_Pos" type="Marker3D" parent="DemonsController/Positions" unique_id=738409326]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -9.229924)
+
+[node name="Jumpscare_Pos" type="Marker3D" parent="DemonsController/Positions" unique_id=56043326]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.17180085, 3.9031506)
+
+[connection signal="player_caught" from="DemonsController/Sprite3D" to="." method="_on_sprite_3d_player_caught"]
+[connection signal="timeout" from="DemonsController/Sprite3D/Timer" to="DemonsController/Sprite3D" method="_on_timer_timeout"]
+[connection signal="timeout" from="DemonsController/Sprite3D/JumpscareT" to="DemonsController/Sprite3D" method="_on_jumpscare_timeout"]
